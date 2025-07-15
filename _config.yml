@@ -3,8 +3,8 @@ title: Synthetic Health Data Hub
 description: >-
   The definitive resource hub for tabular synthetic health data, 
   covering algorithms, tools, regulations, and community resources.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
+baseurl: "/synthetic-health-data-hub" # the subpath of your site, e.g. /blog
+url: "https://digitalhealthcrclimited.github.io" # the base hostname & protocol for your site
 
 # Build settings
 remote_theme: just-the-docs/just-the-docs
