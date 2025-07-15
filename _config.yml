@@ -8,17 +8,17 @@ url: "https://digitalhealthcrclimited.github.io" # the base hostname & protocol 
 repository: DigitalHealthCRCLimited/synthetic-health-data-hub
 
 # Build settings
-remote_theme: pages-themes/minimal@v0.2.0
+theme: jekyll-theme-minimal
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-redirect-from
-  - jekyll-remote-theme
 
-# Theme configuration
+# Minimal theme configuration
 show_downloads: false
-google_analytics:
+logo: /assets/images/logo.png
+description: The definitive resource hub for tabular synthetic health data
 
 # Collections for different content types
 collections:
@@ -59,55 +59,17 @@ collections:
 defaults:
   - scope:
       path: ""
-      type: "technical"
+      type: "pages"
     values:
-      nav_order: 1
-      parent: "Technical Resources"
+      layout: "default"
   - scope:
       path: ""
-      type: "ecosystem"
+      type: "posts"
     values:
-      nav_order: 2
-      parent: "Software Ecosystem"
-  - scope:
-      path: ""
-      type: "regulatory"
-    values:
-      nav_order: 3
-      parent: "Regulatory & Compliance"
-  - scope:
-      path: ""
-      type: "community"
-    values:
-      nav_order: 4
-      parent: "Community"
-  - scope:
-      path: ""
-      type: "education"
-    values:
-      nav_order: 5
-      parent: "Education"
-  - scope:
-      path: ""
-      type: "use_cases"
-    values:
-      nav_order: 6
-      parent: "Use Cases"
-  - scope:
-      path: ""
-      type: "privacy_security"
-    values:
-      nav_order: 7
-      parent: "Privacy & Security"
-  - scope:
-      path: ""
-      type: "benchmarks"
-    values:
-      nav_order: 8
-      parent: "Benchmarks"
+      layout: "default"
 
 # Footer content
-footer_content: "Copyright &copy; 2024 Synthetic Health Data Hub. Distributed under <a href=\"https://github.com/your-repo/blob/main/LICENSE\">MIT license</a>."
+footer_content: "Copyright &copy; 2024 Synthetic Health Data Hub. Distributed under MIT license."
 
 
 # Google Analytics (optional)

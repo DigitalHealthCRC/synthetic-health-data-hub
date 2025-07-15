@@ -1,0 +1,13 @@
+<nav class="site-nav">
+  <ul>
+    <li><a href="{{ '/' | relative_url }}" {% if page.url == '/' %}class="active"{% endif %}>Home</a></li>
+    <li><a href="{{ '/technical/' | relative_url }}" {% if page.url contains '/technical' %}class="active"{% endif %}>Technical Resources</a></li>
+    <li><a href="{{ '/ecosystem/' | relative_url }}" {% if page.url contains '/ecosystem' %}class="active"{% endif %}>Software Ecosystem</a></li>
+    <li><a href="{{ '/regulatory/' | relative_url }}" {% if page.url contains '/regulatory' %}class="active"{% endif %}>Regulatory & Compliance</a></li>
+    <li><a href="{{ '/community/' | relative_url }}" {% if page.url contains '/community' %}class="active"{% endif %}>Community</a></li>
+    <li><a href="{{ '/education/' | relative_url }}" {% if page.url contains '/education' %}class="active"{% endif %}>Education</a></li>
+    <li><a href="{{ '/use-cases/' | relative_url }}" {% if page.url contains '/use-cases' %}class="active"{% endif %}>Use Cases</a></li>
+    <li><a href="{{ '/privacy-security/' | relative_url }}" {% if page.url contains '/privacy-security' %}class="active"{% endif %}>Privacy & Security</a></li>
+    <li><a href="{{ '/benchmarks/' | relative_url }}" {% if page.url contains '/benchmarks' %}class="active"{% endif %}>Benchmarks</a></li>
+  </ul>
+</nav>

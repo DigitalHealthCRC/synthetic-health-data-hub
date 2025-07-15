@@ -1,18 +1,16 @@
 ---
+layout: default
 title: Home
-nav_order: 1
 description: "The definitive resource hub for tabular synthetic health data"
 permalink: /
 ---
 
 # Synthetic Health Data Resource Hub
-{: .fs-9 }
 
 Your comprehensive guide to synthetic health data generation, evaluation, and implementation.
-{: .fs-6 .fw-300 }
 
-[Get Started](#getting-started){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
-[View on GitHub](https://github.com/DigitalHealthCRCLimited/synthetic-health-data-hub){: .btn .fs-5 .mb-4 .mb-md-0 }
+[Get Started](#getting-started){: .btn .btn-primary }
+[View on GitHub](https://github.com/DigitalHealthCRCLimited/synthetic-health-data-hub){: .btn }
 
 ---
 
