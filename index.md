@@ -1,5 +1,4 @@
 ---
-layout: home
 title: Home
 nav_order: 1
 description: "The definitive resource hub for tabular synthetic health data"

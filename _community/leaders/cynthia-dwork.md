@@ -1,6 +1,5 @@
 ---
 title: Cynthia Dwork
-layout: profile
 parent: Researchers
 grand_parent: Community Leaders
 affiliation: Harvard University

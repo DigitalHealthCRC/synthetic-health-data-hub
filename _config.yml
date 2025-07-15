@@ -70,56 +70,48 @@ defaults:
       path: ""
       type: "technical"
     values:
-      layout: "default"
       nav_order: 1
       parent: "Technical Resources"
   - scope:
       path: ""
       type: "ecosystem"
     values:
-      layout: "default"
       nav_order: 2
       parent: "Software Ecosystem"
   - scope:
       path: ""
       type: "regulatory"
     values:
-      layout: "default"
       nav_order: 3
       parent: "Regulatory & Compliance"
   - scope:
       path: ""
       type: "community"
     values:
-      layout: "profile"
       nav_order: 4
       parent: "Community"
   - scope:
       path: ""
       type: "education"
     values:
-      layout: "default"
       nav_order: 5
       parent: "Education"
   - scope:
       path: ""
       type: "use_cases"
     values:
-      layout: "case-study"
       nav_order: 6
       parent: "Use Cases"
   - scope:
       path: ""
       type: "privacy_security"
     values:
-      layout: "default"
       nav_order: 7
       parent: "Privacy & Security"
   - scope:
       path: ""
       type: "benchmarks"
     values:
-      layout: "default"
       nav_order: 8
       parent: "Benchmarks"
 
