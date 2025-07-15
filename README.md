@@ -1,13 +1,13 @@
 # Synthetic Health Data Hub
 
-[![Deploy to GitHub Pages](https://github.com/your-username/synthetic-health-data-hub/actions/workflows/deploy.yml/badge.svg)](https://github.com/your-username/synthetic-health-data-hub/actions/workflows/deploy.yml)
-[![Validate Content](https://github.com/your-username/synthetic-health-data-hub/actions/workflows/validate-content.yml/badge.svg)](https://github.com/your-username/synthetic-health-data-hub/actions/workflows/validate-content.yml)
+[![Deploy to GitHub Pages](https://github.com/DigitalHealthCRCLimited/synthetic-health-data-hub/actions/workflows/deploy.yml/badge.svg)](https://github.com/DigitalHealthCRCLimited/synthetic-health-data-hub/actions/workflows/deploy.yml)
+[![Validate Content](https://github.com/DigitalHealthCRCLimited/synthetic-health-data-hub/actions/workflows/validate-content.yml/badge.svg)](https://github.com/DigitalHealthCRCLimited/synthetic-health-data-hub/actions/workflows/validate-content.yml)
 
 The definitive resource hub for tabular synthetic health data, covering algorithms, tools, regulations, and community resources.
 
 ## 🌐 Visit the Site
 
-[https://your-username.github.io/synthetic-health-data-hub/](https://your-username.github.io/synthetic-health-data-hub/)
+[https://DigitalHealthCRCLimited.github.io/synthetic-health-data-hub/](https://DigitalHealthCRCLimited.github.io/synthetic-health-data-hub/)
 
 ## 📚 Repository Structure
 
@@ -38,7 +38,7 @@ The definitive resource hub for tabular synthetic health data, covering algorith
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/synthetic-health-data-hub.git
+   git clone https://github.com/DigitalHealthCRCLimited/synthetic-health-data-hub.git
    cd synthetic-health-data-hub
    ```
 

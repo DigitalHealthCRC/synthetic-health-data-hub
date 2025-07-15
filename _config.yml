@@ -134,9 +134,9 @@ color_scheme: light
 # External links
 aux_links:
   "GitHub":
-    - "//github.com/your-username/synthetic-health-data-hub"
+    - "//github.com/DigitalHealthCRCLimited/synthetic-health-data-hub"
   "Contribute":
-    - "//github.com/your-username/synthetic-health-data-hub/blob/main/CONTRIBUTING.md"
+    - "//github.com/DigitalHealthCRCLimited/synthetic-health-data-hub/blob/main/CONTRIBUTING.md"
 
 # Makes Aux links open in a new tab
 aux_links_new_tab: true
@@ -155,7 +155,7 @@ last_edit_time_format: "%b %e %Y at %I:%M %p"
 # Repository information (for edit links)
 gh_edit_link: true
 gh_edit_link_text: "Edit this page on GitHub"
-gh_edit_repository: "https://github.com/your-username/synthetic-health-data-hub"
+gh_edit_repository: "https://github.com/DigitalHealthCRCLimited/synthetic-health-data-hub"
 gh_edit_branch: "main"
 gh_edit_view_mode: "tree"
 

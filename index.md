@@ -13,7 +13,7 @@ Your comprehensive guide to synthetic health data generation, evaluation, and im
 {: .fs-6 .fw-300 }
 
 [Get Started](#getting-started){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
-[View on GitHub](https://github.com/your-username/synthetic-health-data-hub){: .btn .fs-5 .mb-4 .mb-md-0 }
+[View on GitHub](https://github.com/DigitalHealthCRCLimited/synthetic-health-data-hub){: .btn .fs-5 .mb-4 .mb-md-0 }
 
 ---
 

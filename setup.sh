@@ -24,7 +24,7 @@ bundle install
 if [ ! -f .env.example ]; then
     cat > .env.example << EOF
 # GitHub Pages Configuration
-GITHUB_USERNAME=your-username
+GITHUB_USERNAME=DigitalHealthCRCLimited
 GITHUB_REPOSITORY=synthetic-health-data-hub
 
 # Optional: Analytics
