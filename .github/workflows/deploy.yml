@@ -36,6 +36,7 @@ jobs:
       - name: Build with Jekyll
         env:
           JEKYLL_ENV: production
+          PAGES_REPO_NWO: ${{ github.repository }}
         run: |
           bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
 
@@ -66,6 +67,8 @@ jobs:
           bundler-cache: true
 
       - name: Build site
+        env:
+          PAGES_REPO_NWO: ${{ github.repository }}
         run: bundle exec jekyll build
 
       - name: Check links

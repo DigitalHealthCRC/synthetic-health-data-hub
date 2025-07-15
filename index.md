@@ -77,7 +77,7 @@ New to synthetic health data? Start with these essential resources:
 
 ## Contributing
 
-We welcome contributions! Please see our [contribution guidelines](CONTRIBUTING.md) to get started.
+We welcome contributions! Please see our [contribution guidelines](https://github.com/DigitalHealthCRCLimited/synthetic-health-data-hub/blob/main/CONTRIBUTING.md) to get started.
 
 ## Stay Updated
 

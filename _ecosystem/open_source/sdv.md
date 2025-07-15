@@ -140,5 +140,5 @@ synthesizer.add_constraints([constraint])
 ## Resources
 
 - [Getting Started Guide](/education/tutorials/sdv-basics/)
-- [API Reference](https://docs.sdv.dev/api/)
-- [Example Notebooks](https://github.com/sdv-dev/SDV/tree/master/tutorials)
+- [Documentation](https://docs.sdv.dev/sdv)
+- [Example Notebooks & Demos](https://docs.sdv.dev/sdv/demos)
