@@ -2,6 +2,7 @@ source "https://rubygems.org"
 
 # GitHub Pages
 gem "github-pages", group: :jekyll_plugins
+gem "jekyll-remote-theme", group: :jekyll_plugins
 
 # For local development
 gem "webrick", "~> 1.8"
