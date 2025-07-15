@@ -5,6 +5,7 @@ description: >-
   covering algorithms, tools, regulations, and community resources.
 baseurl: "/synthetic-health-data-hub" # the subpath of your site, e.g. /blog
 url: "https://digitalhealthcrclimited.github.io" # the base hostname & protocol for your site
+repository: DigitalHealthCRCLimited/synthetic-health-data-hub
 
 # Build settings
 remote_theme: pages-themes/minimal@v0.2.0
