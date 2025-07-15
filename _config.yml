@@ -7,13 +7,12 @@ baseurl: "/synthetic-health-data-hub" # the subpath of your site, e.g. /blog
 url: "https://digitalhealthcrclimited.github.io" # the base hostname & protocol for your site
 
 # Build settings
-remote_theme: just-the-docs/just-the-docs
+theme: minima
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-redirect-from
-  - jekyll-remote-theme
 
 # Just the Docs theme configuration
 search_enabled: true

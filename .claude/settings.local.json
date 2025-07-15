@@ -10,7 +10,8 @@
       "Bash(git remote set-url:*)",
       "Bash(git config:*)",
       "Bash(code --version)",
-      "Bash(rm:*)"
+      "Bash(rm:*)",
+      "Bash(grep:*)"
     ],
     "deny": []
   }
