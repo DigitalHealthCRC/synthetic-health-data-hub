@@ -6,7 +6,10 @@
       "Bash(mkdir:*)",
       "Bash(mv:*)",
       "Bash(true)",
-      "Bash(chmod:*)"
+      "Bash(chmod:*)",
+      "Bash(git remote set-url:*)",
+      "Bash(git config:*)",
+      "Bash(code --version)"
     ],
     "deny": []
   }
