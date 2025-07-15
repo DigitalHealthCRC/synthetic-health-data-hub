@@ -9,7 +9,8 @@
       "Bash(chmod:*)",
       "Bash(git remote set-url:*)",
       "Bash(git config:*)",
-      "Bash(code --version)"
+      "Bash(code --version)",
+      "Bash(rm:*)"
     ],
     "deny": []
   }
