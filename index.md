@@ -81,7 +81,6 @@ We welcome contributions! Please see our [contribution guidelines](https://githu
 
 - 📧 [Subscribe to our newsletter](#)
 - 🐦 [Follow us on Twitter](#)
-- 💬 [Join our Discord](#)
 
 ---
 

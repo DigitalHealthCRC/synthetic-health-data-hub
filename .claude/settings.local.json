@@ -31,7 +31,8 @@
       "WebFetch(domain:docs.github.com)",
       "WebFetch(domain:github.com)",
       "WebFetch(domain:pages.github.com)",
-      "WebFetch(domain:cran.r-project.org)"
+      "WebFetch(domain:cran.r-project.org)",
+      "WebFetch(domain:squidfunk.github.io)"
     ],
     "deny": []
   }
