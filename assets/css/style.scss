@@ -55,8 +55,11 @@ a:hover {
 .site-nav a {
   color: var(--primary);
   display: block;
-  padding: 4px 0;
-  font-size: 14px;
+  padding: 6px 0;
+  font-size: 13px;
+  line-height: 1.4;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
 }
 
 .site-nav a:hover {
@@ -78,7 +81,7 @@ h1 {
 
 h2 {
   margin-top: 3rem;
-  color: var(--text-color);
+  color: var(--secondary);
   border-bottom: 1px solid var(--border-color);
   padding-bottom: 0.5rem;
 }
@@ -178,20 +181,51 @@ code {
 
 // Better layout spacing
 .wrapper {
-  width: 960px;
+  width: 1100px;
   margin: 0 auto;
 }
 
 header {
-  width: 270px;
+  width: 320px;
   float: left;
   position: fixed;
+  padding-right: 20px;
+  overflow-y: auto;
+  max-height: 100vh;
+}
+
+// Header content styling
+header h1 {
+  font-size: 20px;
+  margin: 0 0 10px 0;
+  line-height: 1.2;
+}
+
+header h1 a {
+  color: var(--text-color);
+  font-weight: 600;
+  word-wrap: break-word;
+}
+
+header p {
+  margin: 0 0 15px 0;
+  font-size: 13px;
+  color: var(--text-color);
+  line-height: 1.4;
+  word-wrap: break-word;
+}
+
+header img {
+  max-width: 160px;
+  height: auto;
+  margin: 0 0 15px 0;
 }
 
 section {
-  width: 650px;
+  width: 720px;
   float: right;
   padding-bottom: 50px;
+  margin-left: 340px;
 }
 
 // Mobile menu button (hidden by default)
@@ -211,7 +245,7 @@ section {
 }
 
 // Mobile responsive
-@media print, screen and (max-width: 960px) {
+@media print, screen and (max-width: 1100px) {
   .menu-toggle {
     display: block;
   }
