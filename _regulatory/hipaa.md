@@ -159,10 +159,10 @@ Consequence: Potential HIPAA violation, fines
 4. **Overlooking BAAs** - Needed for third-party tools
 
 ## Resources
-- **Official HIPAA Text**: [HHS.gov HIPAA](https://www.hhs.gov/hipaa/index.html)
-- **De-identification Guidance**: [HHS De-identification Guidance](https://www.hhs.gov/hipaa/for-professionals/privacy/special-topics/de-identification/index.html)
-- **FAQ on De-identification**: [HIPAA De-identification FAQ](https://www.hhs.gov/hipaa/for-professionals/privacy/special-topics/de-identification/index.html#faq)
-- **OCR Enforcement**: [Enforcement Cases](https://www.hhs.gov/hipaa/for-professionals/compliance-enforcement/index.html)
+- **Official HIPAA Text**: [HHS.gov HIPAA](https://www.hhs.gov/hipaa/)
+- **De-identification Guidance**: [HHS De-identification Methods](https://www.hhs.gov/hipaa/for-professionals/privacy/special-topics/de-identification/)
+- **HIPAA Privacy Rule**: [45 CFR Part 160 and Part 164](https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164)
+- **OCR Resources**: [Office for Civil Rights](https://www.hhs.gov/ocr/)
 
 ## Expert Commentary
 

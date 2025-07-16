@@ -67,9 +67,9 @@ Founded in 2018, Replica Analytics provides:
 
 ## Connect
 - **Company Website**: [replica-analytics.com](https://replica-analytics.com/)
-- **University Page**: [University of Ottawa Profile](https://med.uottawa.ca/en/people/el-emam-khaled)
-- **Google Scholar**: [Profile](https://scholar.google.com/citations?user=LUsT-YAAAAAJ)
-- **LinkedIn**: [Khaled El Emam](https://www.linkedin.com/in/kelemam/)
+- **University Page**: [University of Ottawa](https://www.uottawa.ca/)
+- **Google Scholar**: [Profile](https://scholar.google.ca/citations?user=9NV5uXkAAAAJ)
+- **LinkedIn**: [Khaled El Emam](https://www.linkedin.com/in/khaled-el-emam/)
 - **Twitter/X**: [@kelemam](https://twitter.com/kelemam)
 
 ## Recent Activity

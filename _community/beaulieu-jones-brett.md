@@ -23,7 +23,7 @@ Dr. Beaulieu-Jones has been instrumental in developing and evaluating synthetic 
 - **Differential privacy for EHR** - Practical applications in clinical settings
 
 ### Notable Publications
-1. **Privacy-Preserving Generative Deep Neural Networks Support Clinical Data Sharing** (2019) - Circulation: Cardiovascular Quality and Outcomes - [Paper](https://www.ahajournals.org/doi/10.1161/CIRCOUTCOMES.118.005122)
+1. **Privacy-Preserving Generative Deep Neural Networks Support Clinical Data Sharing** (2019) - Circulation: Cardiovascular Quality and Outcomes
 2. **Examining the Use of Real-World Evidence in FDA Regulatory Decision-Making** (2023) - Clinical Pharmacology & Therapeutics
 3. **Characterizing and Managing Missing Structured Data in Electronic Health Records** (2018) - JMIR Medical Informatics
 4. **Semi-supervised Learning of the Electronic Health Record for Phenotype Stratification** (2016) - Journal of Biomedical Informatics
@@ -65,9 +65,9 @@ Dr. Beaulieu-Jones has been instrumental in developing and evaluating synthetic 
 - **Student Mentoring**: PhD and postdoc supervision
 
 ## Connect
-- **University Page**: [UChicago Profile](https://www.medicine.uchicago.edu/faculty/brett-beaulieu-jones-phd)
-- **GitHub**: [@bbeaulieu-jones](https://github.com/beaulieu-jones)
-- **Google Scholar**: [Profile](https://scholar.google.com/citations?user=HbKvgbIAAAAJ)
+- **University Page**: [UChicago Medicine](https://www.uchicagomedicine.org/)
+- **GitHub**: [@beaulieujones](https://github.com/beaulieujones)
+- **Google Scholar**: [Profile](https://scholar.google.com/citations?user=1YI-_0kAAAAJ)
 - **Twitter/X**: [@beaulieujones](https://twitter.com/beaulieujones)
 - **Lab Website**: Computational Medicine Lab
 

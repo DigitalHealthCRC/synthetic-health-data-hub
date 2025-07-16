@@ -197,7 +197,7 @@ Performance on healthcare datasets:
 - [Original Paper](https://arxiv.org/abs/1705.03442) - Ping et al. (2017)
 - [GitHub Repository](https://github.com/DataResponsibly/DataSynthesizer)
 - [Documentation](https://github.com/DataResponsibly/DataSynthesizer/tree/master/docs)
-- [Tutorial Notebook](https://github.com/DataResponsibly/DataSynthesizer/blob/master/notebooks/DataSynthesizer_Tutorial.ipynb)
+- [Tutorial Examples](https://github.com/DataResponsibly/DataSynthesizer/tree/master/examples)
 - [Privacy Analysis](https://arxiv.org/abs/1705.03442) - Formal privacy proofs
 
 ## Citation

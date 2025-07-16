@@ -1,5 +1,6 @@
 # Claude Context for Synthetic Health Data Hub
-
+USE AUSTRALIAN ENGLISH SPELLING
+AVOID TITLE_CASE, Only Captalize the first letter of each sentence, or specific names or accronyms.
 ## Project Overview
 This is a Jekyll-based documentation site for synthetic health data resources. The site aims to be the definitive resource hub for tabular synthetic health data, covering algorithms, tools, regulations, and community resources.
 

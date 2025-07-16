@@ -147,9 +147,9 @@ On healthcare datasets, TVAE typically achieves:
 
 ## Resources
 
-- [Original Paper](https://github.com/sdv-dev/SDV/blob/master/docs/user_guides/single_table/tvae.rst) - Algorithm details
-- [SDV Tutorial](https://docs.sdv.dev/sdv/single-table-data/modeling/synthesizers/tvae) - Step-by-step guide
-- [Benchmark Results](https://github.com/sdv-dev/SDV-Evaluation) - Performance comparisons
+- [SDV Documentation](https://docs.sdv.dev/) - Official documentation
+- [GitHub Repository](https://github.com/sdv-dev/SDV) - Source code and examples
+- [TVAE Paper](https://arxiv.org/abs/1907.00503) - Technical details
 - [Community Discussion](https://github.com/sdv-dev/SDV/discussions) - Q&A and tips
 
 ## Citation

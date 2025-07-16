@@ -237,8 +237,8 @@ privacy_report = evaluate_privacy(
 - [Official Documentation](https://docs.sdv.dev/)
 - [GitHub Repository](https://github.com/sdv-dev/SDV)
 - [Research Papers](https://github.com/sdv-dev/SDV#citing-sdv)
-- [Community Slack](https://sdv.dev/slack)
-- [Video Tutorials](https://www.youtube.com/c/SDVProject)
+- [Community Discussions](https://github.com/sdv-dev/SDV/discussions)
+- [SDV Blog](https://sdv.dev/blog)
 
 ## Related Pages
 
