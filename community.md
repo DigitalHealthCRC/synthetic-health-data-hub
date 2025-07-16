@@ -54,9 +54,14 @@ Ways to get involved:
 - **NHS Digital** - National health data initiatives
 - **Google Health** - AI for healthcare
 
+## Featured Initiative
+
+### [SynD: Synthetic Data Community of Practice](/community/organizations/synd/)
+An Australian initiative by Digital Health CRC bringing together researchers, practitioners, and organizations to advance synthetic health data. Join this growing community to collaborate, share knowledge, and drive innovation in privacy-preserving health data technologies.
+
 ## Get Involved
 
-1. **Join our Discord** - Active community discussions
+1. **[Join SynD Community](https://digitalhealthcrc.com/synthetic-data-community-of-practice-synd/)** - Australian community of practice
 2. **Contribute to projects** - Open source opportunities
 3. **Share your work** - Submit case studies
 4. **Attend events** - Network and learn
