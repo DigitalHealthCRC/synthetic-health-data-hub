@@ -58,6 +58,17 @@ Country and region-specific requirements:
 | HIPAA | US | De-identification | Safe Harbor or Expert Determination |
 | PIPEDA | Canada | Consent | Depends on use case |
 
+## Regulation Details
+
+{% for reg in site.data.regulations %}
+{% include regulation-card.html 
+   title=reg[1].title 
+   full_name=reg[1].full_name
+   region=reg[1].region
+   key_points=reg[1].key_points
+   status=reg[1].status %}
+{% endfor %}
+
 ## Resources
 
 - [GDPR Compliance Checklist](/regulatory/checklists/gdpr/)

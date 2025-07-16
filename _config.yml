@@ -20,6 +20,10 @@ show_downloads: false
 logo: https://digitalhealthcrc.com/wp-content/uploads/2022/09/DHCRC-Australia-Colourful-Logo-Mark.png
 description: The definitive resource hub for tabular synthetic health data
 
+# Sass settings
+sass:
+  style: compressed
+
 # Collections for different content types
 collections:
   technical:

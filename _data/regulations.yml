@@ -1,0 +1,30 @@
+# Regulatory data for easy maintenance
+gdpr:
+  title: "GDPR (Europe)"
+  full_name: "General Data Protection Regulation"
+  region: "European Union"
+  key_points:
+    - "Legal basis for synthetic data"
+    - "Privacy by design principles"
+    - "Data minimization requirements"
+  status: "Generally compliant if properly anonymized"
+
+hipaa:
+  title: "HIPAA (United States)"
+  full_name: "Health Insurance Portability and Accountability Act"
+  region: "United States"
+  key_points:
+    - "Safe Harbor provisions"
+    - "Expert determination"
+    - "Limited data sets"
+  status: "Safe Harbor or Expert Determination required"
+
+pipeda:
+  title: "PIPEDA (Canada)"
+  full_name: "Personal Information Protection and Electronic Documents Act"
+  region: "Canada"
+  key_points:
+    - "Consent requirements"
+    - "Reasonable purposes"
+    - "Accountability principle"
+  status: "Depends on use case and consent"
