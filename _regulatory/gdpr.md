@@ -140,7 +140,7 @@ Different interpretations by:
 
 - [GDPR Full Text](https://gdpr-info.eu/)
 - [EDPB Guidelines](https://edpb.europa.eu/)
-- [Article 29 WP Opinion on Anonymization](https://ec.europa.eu/justice/article-29/)
+- [WP29 Opinion on Anonymization Techniques](https://ec.europa.eu/justice/data-protection/article-29/documentation/opinion-recommendation/files/2014/wp216_en.pdf)
 - [Healthcare-Specific Guidance](/regulatory/gdpr/healthcare/)
 
 ## Conclusion
