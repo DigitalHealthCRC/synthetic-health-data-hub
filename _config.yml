@@ -1,5 +1,5 @@
 # Site settings
-title: Synthetic Health Data Hub
+title: Synthetic Health Data Hub | DHCRC
 description: >-
   The definitive resource hub for tabular synthetic health data, 
   covering algorithms, tools, regulations, and community resources.
@@ -17,7 +17,7 @@ plugins:
 
 # Minimal theme configuration
 show_downloads: false
-logo: /assets/images/logo.png
+logo: https://digitalhealthcrc.com/wp-content/uploads/2022/09/DHCRC-Australia-Colourful-Logo-Mark.png
 description: The definitive resource hub for tabular synthetic health data
 
 # Collections for different content types
@@ -69,7 +69,7 @@ defaults:
       layout: "default"
 
 # Footer content
-footer_content: "Copyright &copy; 2024 Synthetic Health Data Hub. Distributed under MIT license."
+footer_content: "Copyright &copy; 2024 Digital Health CRC. Synthetic Health Data Hub is a project of the <a href='https://digitalhealthcrc.com'>Digital Health Cooperative Research Centre</a>."
 
 
 # Google Analytics (optional)
