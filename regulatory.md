@@ -61,12 +61,19 @@ Country and region-specific requirements:
 ## Regulation Details
 
 {% for reg in site.data.regulations %}
-{% include regulation-card.html 
-   title=reg[1].title 
-   full_name=reg[1].full_name
-   region=reg[1].region
-   key_points=reg[1].key_points
-   status=reg[1].status %}
+  {% assign reg_data = reg[1] %}
+  <div class="regulation-card">
+    <h3>{{ reg_data.title }}</h3>
+    <p><strong>Full Name:</strong> {{ reg_data.full_name }}</p>
+    <p><strong>Region:</strong> {{ reg_data.region }}</p>
+    <h4>Key Points:</h4>
+    <ul>
+      {% for point in reg_data.key_points %}
+      <li>{{ point }}</li>
+      {% endfor %}
+    </ul>
+    <p><strong>Status:</strong> {{ reg_data.status }}</p>
+  </div>
 {% endfor %}
 
 ## Resources

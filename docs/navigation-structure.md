@@ -1,7 +1,6 @@
 ---
-layout: page
+layout: default
 title: Navigation Structure
-nav_exclude: true
 ---
 
 # Navigation Structure
