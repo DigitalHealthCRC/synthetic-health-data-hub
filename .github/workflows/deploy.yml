@@ -1,81 +1,96 @@
-name: Deploy to GitHub Pages
+name: Deploy MkDocs to GitHub Pages
 
 on:
   push:
-    branches: [ main ]
+    branches:
+      - main
   pull_request:
-    branches: [ main ]
-  workflow_dispatch:
+    branches:
+      - main
 
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
-
-concurrency:
-  group: "pages"
-  cancel-in-progress: true
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout code
         uses: actions/checkout@v4
-
-      - name: Setup Ruby
-        uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.1'
-          bundler-cache: true
+          fetch-depth: 0  # Full history for git revision plugin
 
-      - name: Setup Pages
-        id: pages
-        uses: actions/configure-pages@v4
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
 
-      - name: Build with Jekyll
-        env:
-          JEKYLL_ENV: production
-          PAGES_REPO_NWO: ${{ github.repository }}
-          JEKYLL_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Install dependencies
         run: |
-          bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
+          pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Build MkDocs site
+        run: mkdocs build --strict
 
       - name: Upload artifact
+        if: github.ref == 'refs/heads/main'
         uses: actions/upload-pages-artifact@v3
+        with:
+          path: site/
 
   deploy:
+    if: github.ref == 'refs/heads/main'
+    needs: build
+    runs-on: ubuntu-latest
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    needs: build
-    if: github.ref == 'refs/heads/main'
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
 
+  # Link checking job
   link-check:
     runs-on: ubuntu-latest
+    if: github.event_name == 'pull_request'
     steps:
-      - uses: actions/checkout@v4
-      
-      - name: Setup Ruby
-        uses: ruby/setup-ruby@v1
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
         with:
-          ruby-version: '3.1'
-          bundler-cache: true
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          pip install --upgrade pip
+          pip install -r requirements.txt
+          pip install linkchecker
 
       - name: Build site
-        env:
-          PAGES_REPO_NWO: ${{ github.repository }}
-        run: bundle exec jekyll build
+        run: mkdocs build --strict
 
       - name: Check links
-        uses: lycheeverse/lychee-action@v1
-        with:
-          fail: true
-          args: --verbose --no-progress --max-redirects 3 './_site/**/*.html'
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # Start local server
+          python -m http.server 8000 --directory site/ &
+          SERVER_PID=$!
+          sleep 5
+          
+          # Check links
+          linkchecker http://localhost:8000 \
+            --ignore-url='^mailto:' \
+            --ignore-url='^https://github.com.*/(edit|blob)/' \
+            --check-extern \
+            --no-warnings \
+            --output=text
+          
+          # Stop server
+          kill $SERVER_PID
