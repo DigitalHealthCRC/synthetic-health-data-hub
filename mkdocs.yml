@@ -139,6 +139,12 @@ nav:
     - PIPEDA: regulatory/pipeda.md
   - Community:
     - community/index.md
+    - Organisations:
+      - community/organisations/index.md
+      - Digital Health CRC: community/organisations/digital-health-crc.md
+      - MIT DAI Lab: community/organisations/mit-dai-lab.md
+      - Privacy Analytics: community/organisations/privacy-analytics.md
+      - Mostly AI: community/organisations/mostly-ai.md
     - Leaders:
       - community/leaders/index.md
       - Dr. Cynthia Dwork: community/leaders/cynthia-dwork.md
