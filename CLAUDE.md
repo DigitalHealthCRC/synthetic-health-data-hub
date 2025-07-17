@@ -117,11 +117,12 @@ mkdocs gh-deploy
 
 ### 📊 Content Count (Post-Migration)
 - **Technical Pages**: 8 (CTGAN, TVAE, DataSynthesizer, SDV Overview, Evaluation Metrics, Synthpop, Gaussian Copula, TimeGAN)
-- **Community Profiles**: 6 (including Cynthia Dwork)
+- **Community Profiles**: 6 (leaders)
+- **Organisation Profiles**: 4 (Digital Health CRC, MIT DAI Lab, Privacy Analytics, Mostly AI)
 - **Regulatory Guides**: 3 (GDPR, HIPAA, PIPEDA)
 - **Resources**: 2 (Getting Started, Best Practices)
 - **Main Section Pages**: 9
-- **Total Content Pages**: 28+
+- **Total Content Pages**: 32+
 
 ### 🎯 Next Steps (Phase 2)
 1. **Technical Content** (Priority: High) ✅
@@ -130,8 +131,8 @@ mkdocs gh-deploy
    - ✅ Add TimeGAN algorithm page
    - Create tool comparison matrices
 
-2. **Community Content** (Priority: Medium)
-   - Create organization profiles (Digital Health CRC, MIT DAI Lab, etc.)
+2. **Community Content** (Priority: Medium) ✅
+   - ✅ Create organisation profiles (Digital Health CRC, MIT DAI Lab, Privacy Analytics, Mostly AI)
    - Add more community leader profiles
    - Document upcoming events and workshops
 
