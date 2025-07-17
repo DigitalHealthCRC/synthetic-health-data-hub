@@ -208,10 +208,10 @@ Performance on healthcare datasets:
 
 ## Related Tools
 
-- [SDV](/ecosystem/open-source/sdv/) - Comprehensive synthetic data library
-- [synthpop](/technical/algorithms/synthpop/) - R-based alternative
-- [CTGAN](/technical/algorithms/ctgan/) - Deep learning approach
-- [DP-SGD](/technical/algorithms/dp-sgd/) - Differential privacy for deep learning
+- [SDV](../../ecosystem/open-source/sdv.md) - Comprehensive synthetic data library
+- synthpop - R-based alternative
+- [CTGAN](ctgan.md) - Deep learning approach
+- DP-SGD - Differential privacy for deep learning
 
 ---
 *Last updated: July 2024*

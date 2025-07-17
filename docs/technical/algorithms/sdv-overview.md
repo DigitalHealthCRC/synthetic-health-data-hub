@@ -236,10 +236,10 @@ privacy_report = evaluate_privacy(
 
 ## Related Pages
 
-- [CTGAN Details](/technical/algorithms/ctgan/)
-- [TVAE Details](/technical/algorithms/tvae/)
-- [Evaluation Metrics](/technical/evaluation/)
-- [SDV Tool Page](/ecosystem/open-source/sdv/)
+- [CTGAN Details](ctgan.md)
+- [TVAE Details](tvae.md)
+- [Evaluation Metrics](../evaluation-metrics.md)
+- [SDV Tool Page](../../ecosystem/open-source/sdv.md)
 
 ---
 *Last updated: July 2024*

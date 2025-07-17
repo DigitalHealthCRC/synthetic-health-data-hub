@@ -160,9 +160,9 @@ On healthcare datasets, TVAE typically achieves:
 
 ## Related Algorithms
 
-- [CTGAN](/technical/algorithms/ctgan/) - GAN-based alternative
-- [GaussianCopula](/technical/algorithms/gaussian-copula/) - Statistical approach
-- [DP-TVAE](/technical/algorithms/dp-tvae/) - Differentially private variant
+- [CTGAN](ctgan.md) - GAN-based alternative
+- GaussianCopula - Statistical approach
+- DP-TVAE - Differentially private variant
 
 ---
 *Last updated: July 2024*
