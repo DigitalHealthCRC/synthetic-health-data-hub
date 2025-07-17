@@ -123,6 +123,9 @@ nav:
       - TVAE: technical/algorithms/tvae.md
       - DataSynthesizer: technical/algorithms/datasynthesizer.md
       - SDV Overview: technical/algorithms/sdv-overview.md
+      - Synthpop: technical/algorithms/synthpop.md
+      - Gaussian Copula: technical/algorithms/gaussian-copula.md
+      - TimeGAN: technical/algorithms/timegan.md
     - Evaluation Metrics: technical/evaluation-metrics.md
   - Ecosystem:
     - ecosystem/index.md
