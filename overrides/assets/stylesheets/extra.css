@@ -30,6 +30,22 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* Main content shadow effect */
+.md-content {
+  position: relative;
+  z-index: 2;
+  box-shadow: -5px 0 15px rgba(0, 0, 0, 0.1), 5px 0 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Ensure proper layering */
+.md-sidebar {
+  z-index: 1;
+}
+
+.md-sidebar--secondary {
+  z-index: 1;
+}
+
 /* Heading styles */
 .md-typeset h1 {
   font-weight: 700;
