@@ -175,7 +175,7 @@ synthetic_visits = synthesizer.sample(num_entities=50)
 
 ## Next Steps
 
-1. **Explore Algorithms**: Learn about [CTGAN](../technical/algorithms/ctgan.md), [TVAE](../technical/algorithms/tvae.md), and [DataSynthesizer](../technical/algorithms/datasynthesizer.md)
+1. **Explore Algorithms**: Learn about [CTGAN](../technical/algorithms/ctgan.md) and other synthetic data generation methods
 2. **Understand Evaluation**: Read our [evaluation metrics guide](../technical/evaluation-metrics.md)
 3. **Check Compliance**: Review [regulatory requirements](../regulatory/index.md)
 4. **Join Community**: Connect with the [SynD Community](../community/synd-community.md)

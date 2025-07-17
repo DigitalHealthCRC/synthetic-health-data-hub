@@ -1,9 +1,3 @@
----
-layout: default
-title: DataSynthesizer
-permalink: /technical/algorithms/datasynthesizer/
----
-
 # DataSynthesizer
 
 ## Overview

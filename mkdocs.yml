@@ -59,9 +59,7 @@ plugins:
       lang: en
   - minify:
       minify_html: true
-  - redirects:
-      redirect_maps:
-        'index.md': 'README.md'
+  - redirects
   - git-revision-date-localized:
       enable_creation_date: true
       type: date

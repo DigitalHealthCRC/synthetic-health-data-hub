@@ -68,7 +68,7 @@ Synthetic health data addresses critical challenges in healthcare:
 ## 🚀 Latest Updates
 
 - **July 2024**: Added comprehensive regulatory guides for HIPAA and PIPEDA
-- **July 2024**: New algorithm documentation for TVAE and DataSynthesizer
+- **July 2024**: New algorithm documentation and updates
 - **July 2024**: Launched community leader profiles section
 
 ## 🤝 Contributing

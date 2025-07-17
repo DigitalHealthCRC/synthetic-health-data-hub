@@ -67,7 +67,7 @@ Dr. Beaulieu-Jones has been instrumental in developing and evaluating synthetic 
 ## Connect
 - **University Page**: [UChicago Medicine](https://www.uchicagomedicine.org/)
 - **GitHub**: [@beaulieujones](https://github.com/beaulieujones)
-- **Google Scholar**: [Profile](https://scholar.google.com/citations?user=1YI-_0kAAAAJ)
+- **Google Scholar**: [Profile](https://scholar.google.com/citations?user=2SvHNeQAAAAJ)
 - **Twitter/X**: [@beaulieujones](https://twitter.com/beaulieujones)
 - **Lab Website**: Computational Medicine Lab
 

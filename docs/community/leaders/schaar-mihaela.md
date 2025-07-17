@@ -53,7 +53,7 @@ The **van der Schaar Lab** at Cambridge focuses on:
 ## Connect
 - **Website**: [vanderschaar-lab.com](https://www.vanderschaar-lab.com/)
 - **GitHub**: [@vanderschaarlab](https://github.com/vanderschaarlab)
-- **Google Scholar**: [Profile](https://scholar.google.com/citations?user=1R3ER9IAAAAJ)
+- **Google Scholar**: [Profile](https://scholar.google.com/citations?user=DZ3S--MAAAAJ)
 - **Twitter/X**: [@MihaelaVDS](https://twitter.com/MihaelaVDS)
 - **Lab Twitter**: [@vanderschaarlab](https://twitter.com/vanderschaarlab)
 

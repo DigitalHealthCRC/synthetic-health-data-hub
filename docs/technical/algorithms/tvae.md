@@ -1,9 +1,3 @@
----
-layout: default
-title: TVAE
-permalink: /technical/algorithms/tvae/
----
-
 # TVAE: Tabular Variational Autoencoder
 
 ## Overview
