@@ -334,7 +334,7 @@ body {
 
 /* Header gradient background */
 .md-header {
-  background: linear-gradient(135deg, var(--dark-blue) 0%, var(--dark-pink) 100%) !important;
+  background: linear-gradient(315, #E57F00ff 0%, #EC6600ff 16%, #FB2D37ff 33%, #FA0F8Fff 50%, #B329E3ff 66%, #4F71F8ff 84% , #06CDFEff 100%) !important;
 }
 
 /* Make logo bigger */
