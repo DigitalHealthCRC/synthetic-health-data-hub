@@ -72,29 +72,31 @@
           for (let layer = 0; layer < 3; layer++) {
             ctx.globalAlpha = layerOpacity;
             
-            // Draw aurora waves
-            for (let x = 0; x < canvas.width; x += 5) {
-              const noiseValue = noise(x, layer * 100, time);
-              const height = noiseValue * canvas.height * amplitude;
-              const y = canvas.height * 0.3 + height + layer * 50;
+            // Draw vertical aurora waves
+            for (let y = 0; y < canvas.height; y += 5) {
+              const noiseValue = noise(layer * 100, y, time);
+              const width = noiseValue * canvas.width * amplitude;
+              const x = canvas.width * 0.5 + width + layer * 20;
               
-              // Color based on position
-              const colorFactor = x / canvas.width;
+              // Color based on vertical position
+              const colorFactor = y / canvas.height;
               let color;
-              if (colorFactor < 0.5) {
-                color = interpolateColor(colorStops[0], colorStops[1], colorFactor * 2);
+              if (colorFactor < 0.33) {
+                color = interpolateColor(colorStops[0], colorStops[1], colorFactor * 3);
+              } else if (colorFactor < 0.66) {
+                color = interpolateColor(colorStops[1], colorStops[2], (colorFactor - 0.33) * 3);
               } else {
-                color = interpolateColor(colorStops[1], colorStops[2], (colorFactor - 0.5) * 2);
+                color = interpolateColor(colorStops[2], colorStops[0], (colorFactor - 0.66) * 3);
               }
               
-              // Create gradient
-              const gradient = ctx.createLinearGradient(x, y - height, x, y + height);
+              // Create horizontal gradient
+              const gradient = ctx.createLinearGradient(x - width, y, x + width, y);
               gradient.addColorStop(0, 'transparent');
               gradient.addColorStop(0.5, color);
               gradient.addColorStop(1, 'transparent');
               
               ctx.fillStyle = gradient;
-              ctx.fillRect(x, y - height, 5, height * 2);
+              ctx.fillRect(x - width, y, width * 2, 5);
             }
           }
           
