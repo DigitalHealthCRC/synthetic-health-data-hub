@@ -10,28 +10,28 @@ The synthetic health data community brings together diverse stakeholders working
 
 ## Community Sections
 
-### [Leaders & Innovators](..//community/leaders/.md)
+### [Leaders & Innovators](leaders/index.md)
 Profiles of key contributors:
 - Research pioneers
 - Industry leaders
 - Policy makers
 - Open source maintainers
 
-### [Organizations](..//community/organizations/.md)
+### [Organizations](organisations/index.md)
 Key institutions and companies:
 - Research labs
 - Healthcare organizations
 - Technology companies
 - Government agencies
 
-### [Events & Conferences](..//community/events/.md)
+### Events & Conferences
 Stay connected through:
 - Annual conferences
 - Workshops
 - Webinars
 - Meetups
 
-### [Collaboration Opportunities](..//community/collaborate/.md)
+### Collaboration Opportunities
 Ways to get involved:
 - Research partnerships
 - Open source projects
@@ -52,7 +52,7 @@ Ways to get involved:
 
 ## Featured Initiative
 
-### [SynD: Synthetic Data Community of Practice](..//community/organizations/synd/.md)
+### [SynD: Synthetic Data Community of Practice](synd-community.md)
 An Australian initiative by Digital Health CRC bringing together researchers, practitioners, and organizations to advance synthetic health data. Join this growing community to collaborate, share knowledge, and drive innovation in privacy-preserving health data technologies.
 
 ## Get Involved

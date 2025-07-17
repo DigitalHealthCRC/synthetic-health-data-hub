@@ -62,4 +62,4 @@ synthetic_data = model.sample(num_rows=1000)
 
 - [Original Paper](https://arxiv.org/abs/1907.00503)
 - [GitHub Repository](https://github.com/sdv-dev/CTGAN)
-- [Implementation Tutorial](..//education/tutorials/ctgan-basics/.md)
+- [SDV Documentation](https://docs.sdv.dev/sdv/single-table-data/modeling/synthesizers/ctgansynthesizer)

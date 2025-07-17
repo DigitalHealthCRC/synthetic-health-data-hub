@@ -71,7 +71,7 @@ Professor Dwork continues to advance:
 ## Resources
 
 - [Harvard Faculty Page](https://www.seas.harvard.edu/person/cynthia-dwork)
-- [Google Scholar Profile](https://scholar.google.com/scholar_lookup?title=Differential+privacy&author=Cynthia+Dwork&publication_year=2006&pages=1-12&doi=10.1007%2F11787006_1)
+- [Personal Website](https://dwork.seas.harvard.edu/)
 - [Differential Privacy Book (Free)](https://www.cis.upenn.edu/~aaroth/Papers/privacybook.pdf)
 
 ## Notable Quotes

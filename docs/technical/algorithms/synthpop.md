@@ -227,9 +227,9 @@ Performance on standard datasets:
 
 - [Official Documentation](https://www.synthpop.org.uk/)
 - [CRAN Package](https://cran.r-project.org/package=synthpop)
-- [GitHub Repository](https://github.com/synthpop-dev/synthpop)
+- [GitHub Repository](https://github.com/cran/synthpop)
 - [Tutorial Vignettes](https://cran.r-project.org/web/packages/synthpop/vignettes/)
-- [Book: "Synthetic Data for Social Good"](https://www.synthpop.org.uk/synthpop-book.html)
+- [JSS Paper](https://www.jstatsoft.org/article/view/v074i11) - Software and implementation details
 
 ## Citation
 

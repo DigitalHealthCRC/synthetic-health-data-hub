@@ -53,7 +53,7 @@ The **van der Schaar Lab** at Cambridge focuses on:
 ## Connect
 - **Website**: [vanderschaar-lab.com](https://www.vanderschaar-lab.com/)
 - **GitHub**: [@vanderschaarlab](https://github.com/vanderschaarlab)
-- **Google Scholar**: [Profile](https://scholar.google.com/citations?hl=en&user=DZ3S--MAAAAJ)
+- **ORCID**: [0000-0003-3933-6049](https://orcid.org/0000-0003-3933-6049)
 - **Twitter/X**: [@MihaelaVDS](https://twitter.com/MihaelaVDS)
 <!-- - **Lab Twitter**: [@vanderschaarlab](https://twitter.com/vanderschaarlab) -->
 
@@ -73,5 +73,5 @@ The **van der Schaar Lab** at Cambridge focuses on:
 "Synthetic data is not just about privacy - it's about democratizing access to health data for research and innovation. Our goal is to make it possible for any researcher to work with realistic health data without compromising patient privacy." - Prof. van der Schaar
 
 ---
-*Last updated: July 2024*
+*Last updated: July 2025*
 *Verified: ✓ Lab website verified*

@@ -10,21 +10,21 @@ This section provides in-depth technical resources for understanding and impleme
 
 ## Categories
 
-### [Generation Algorithms](..//technical/algorithms/.md)
+### [Generation Algorithms](algorithms/index.md)
 State-of-the-art algorithms for synthetic data generation including:
 - Statistical methods (CTGAN, TVAE)
 - Deep learning approaches
 - Differential privacy techniques
 - Hybrid methods
 
-### [Data Types](..//technical/data-types/.md)
+### Data Types
 Handling different types of health data:
 - Electronic Health Records (EHR)
 - Medical imaging metadata
 - Time series data
 - Multi-modal data
 
-### [Evaluation Methods](..//technical/evaluation/.md)
+### Evaluation Methods
 Metrics and methods for assessing synthetic data:
 - Utility metrics
 - Privacy metrics
@@ -33,9 +33,9 @@ Metrics and methods for assessing synthetic data:
 
 ## Quick Links
 
-- [CTGAN Implementation Guide](..//technical/algorithms/ctgan/.md)
-- [Privacy Evaluation Framework](..//technical/evaluation/privacy/.md)
-- [EHR Data Generation Best Practices](..//technical/data-types/ehr/.md)
+- [CTGAN Implementation Guide](algorithms/ctgan.md)
+- Privacy Evaluation Framework
+- EHR Data Generation Best Practices
 
 ## Recent Updates
 

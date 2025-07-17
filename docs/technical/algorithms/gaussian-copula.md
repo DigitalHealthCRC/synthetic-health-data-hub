@@ -279,7 +279,7 @@ Performance characteristics:
 - [TVAE](tvae.md) - VAE-based alternative
 - [CTGAN](ctgan.md) - GAN-based approach
 - [Synthpop](synthpop.md) - R-based statistical synthesis
-- [Vine Copulas](https://vinecopulib.github.io/) - More flexible copula structures
+- [Vine Copulas](https://vinecopulib.github.io/vinecopulib/) - More flexible copula structures
 
 ---
 *Last updated: July 2024*

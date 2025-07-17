@@ -37,7 +37,14 @@
       "Bash(python:*)",
       "Bash(git merge:*)",
       "Bash(git stash:*)",
-      "Bash(cp:*)"
+      "Bash(cp:*)",
+      "WebFetch(domain:synthpop.org.uk)",
+      "WebFetch(domain:www.hhs.gov)",
+      "WebFetch(domain:www.cdc.gov)",
+      "WebFetch(domain:www.federalregister.gov)",
+      "WebFetch(domain:www.nist.gov)",
+      "WebFetch(domain:csrc.nist.gov)",
+      "WebFetch(domain:privacyruleandresearch.nih.gov)"
     ],
     "deny": []
   }
