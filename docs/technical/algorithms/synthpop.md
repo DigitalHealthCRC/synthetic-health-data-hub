@@ -247,7 +247,6 @@ Performance on standard datasets:
 
 ## Related Tools
 
-- [SDV](../sdv-overview.md) - Python alternative with multiple methods
 - [DataSynthesizer](datasynthesizer.md) - Privacy-focused alternative
 - [simPop](https://cran.r-project.org/package=simPop) - R package for population synthesis
 - [CTGAN](ctgan.md) - Deep learning approach
