@@ -1,0 +1,98 @@
+# Site settings
+title: Synthetic Health Data Hub
+description: >-
+  The definitive resource hub for tabular synthetic health data, 
+  covering algorithms, tools, regulations, and community resources.
+baseurl: "/synthetic-health-data-hub" # the subpath of your site, e.g. /blog
+url: "https://digitalhealthcrclimited.github.io" # the base hostname & protocol for your site
+repository: DigitalHealthCRCLimited/synthetic-health-data-hub
+
+# Build settings
+theme: jekyll-theme-minimal
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-redirect-from
+
+# Minimal theme configuration
+show_downloads: false
+logo: https://digitalhealthcrc.com/wp-content/uploads/2024/07/SynD-logo-transparent-200x117.png.webp
+description: The definitive resource hub for tabular synthetic health data
+
+# Sass settings
+sass:
+  style: compressed
+
+# Collections for different content types
+collections:
+  technical:
+    output: true
+    permalink: /technical/:path/
+    sort_by: title
+  ecosystem:
+    output: true
+    permalink: /ecosystem/:path/
+    sort_by: title
+  regulatory:
+    output: true
+    permalink: /regulatory/:path/
+    sort_by: region
+  community:
+    output: true
+    permalink: /community/:path/
+    sort_by: name
+  education:
+    output: true
+    permalink: /education/:path/
+    sort_by: date
+  use_cases:
+    output: true
+    permalink: /use-cases/:path/
+    sort_by: date
+  privacy_security:
+    output: true
+    permalink: /privacy-security/:path/
+    sort_by: priority
+  benchmarks:
+    output: true
+    permalink: /benchmarks/:path/
+    sort_by: title
+
+# Front matter defaults
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "default"
+
+# Footer content
+footer_content: "Copyright &copy; 2024 Digital Health CRC. Synthetic Health Data Hub is a project of the <a href='https://digitalhealthcrc.com'>Digital Health Cooperative Research Centre</a>."
+
+
+# Google Analytics (optional)
+# ga_tracking: UA-XXXXXXXXX-X
+
+
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - package.json
+  - package-lock.json
+  - webpack.config.js
+  - README.md
+  - CONTRIBUTING.md
+  - LICENSE

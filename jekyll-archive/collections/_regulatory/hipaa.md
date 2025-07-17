@@ -162,7 +162,7 @@ Consequence: Potential HIPAA violation, fines
 - **Official HIPAA Text**: [HHS.gov HIPAA](https://www.hhs.gov/hipaa/)
 - **De-identification Guidance**: [HHS De-identification Methods](https://www.hhs.gov/hipaa/for-professionals/privacy/special-topics/de-identification/)
 - **HIPAA Privacy Rule**: [45 CFR Part 160 and Part 164](https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164)
-- **OCR Resources**: [Office for Civil Rights](https://www.hhs.gov/ocr/)
+- **OCR Resources**: [Office for Civil Rights](https://www.hhs.gov/ocr/index.html)
 
 ## Expert Commentary
 

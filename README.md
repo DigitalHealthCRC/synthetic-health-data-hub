@@ -1,7 +1,6 @@
 # Synthetic Health Data Hub
 
-[![Deploy to GitHub Pages](https://github.com/DigitalHealthCRCLimited/synthetic-health-data-hub/actions/workflows/deploy.yml/badge.svg)](https://github.com/DigitalHealthCRCLimited/synthetic-health-data-hub/actions/workflows/deploy.yml)
-[![Validate Content](https://github.com/DigitalHealthCRCLimited/synthetic-health-data-hub/actions/workflows/validate-content.yml/badge.svg)](https://github.com/DigitalHealthCRCLimited/synthetic-health-data-hub/actions/workflows/validate-content.yml)
+[![Deploy to GitHub Pages](https://github.com/DigitalHealthCRCLimited/synthetic-health-data-hub/actions/workflows/mkdocs.yml/badge.svg)](https://github.com/DigitalHealthCRCLimited/synthetic-health-data-hub/actions/workflows/mkdocs.yml)
 
 The definitive resource hub for tabular synthetic health data, covering algorithms, tools, regulations, and community resources.
 
@@ -13,25 +12,25 @@ The definitive resource hub for tabular synthetic health data, covering algorith
 
 ```
 .
-├── _technical/          # Algorithms, evaluation metrics, data types
-├── _ecosystem/          # Open source tools and commercial platforms
-├── _regulatory/         # Compliance guides and regulations
-├── _community/          # Leader profiles and organizations
-├── _education/          # Courses, papers, and tutorials
-├── _use_cases/          # Real-world applications
-├── _privacy_security/   # Privacy methods and security practices
-├── _benchmarks/         # Datasets and evaluation suites
-├── _layouts/            # Jekyll layouts
-├── _sass/               # Custom styles
-├── assets/              # JavaScript, CSS, images
-└── index.md             # Homepage
+├── docs/                    # MkDocs content
+│   ├── technical/          # Algorithms, evaluation metrics
+│   ├── ecosystem/          # Open source tools and commercial platforms
+│   ├── regulatory/         # Compliance guides and regulations
+│   ├── community/          # Leader profiles and organizations
+│   └── resources/          # Getting started guides and best practices
+├── overrides/              # MkDocs theme customizations
+├── includes/               # Reusable content (abbreviations)
+├── jekyll-archive/         # Archived Jekyll files
+├── mkdocs.yml             # MkDocs configuration
+├── requirements.txt       # Python dependencies
+└── README.md              # This file
 ```
 
 ## 🚀 Local Development
 
 ### Prerequisites
-- Ruby 3.0+
-- Bundler
+- Python 3.8 or higher
+- pip
 - Git
 
 ### Setup
@@ -44,15 +43,25 @@ The definitive resource hub for tabular synthetic health data, covering algorith
 
 2. Install dependencies:
    ```bash
-   bundle install
+   pip install -r requirements.txt
    ```
 
-3. Run locally:
+3. Run local development server:
    ```bash
-   bundle exec jekyll serve
+   mkdocs serve
    ```
 
-4. Visit `http://localhost:4000`
+4. Visit `http://localhost:8000`
+
+### Building the Site
+
+```bash
+# Build the site
+mkdocs build
+
+# Deploy to GitHub Pages (maintainers only)
+mkdocs gh-deploy
+```
 
 ## 🤝 Contributing
 
@@ -72,42 +81,32 @@ We welcome contributions! See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 - **Software Ecosystem**: Open source tools, commercial platforms
 - **Regulatory Compliance**: GDPR, HIPAA, regional regulations
 - **Community**: Researcher profiles, organizations, events
-- **Education**: Courses, tutorials, academic papers
-- **Use Cases**: Industry implementations, case studies
-- **Privacy & Security**: Best practices, privacy methods
-- **Benchmarks**: Standard datasets, evaluation suites
+- **Resources**: Getting started guides, best practices
 
 ## 🛠️ Technology Stack
 
-- **Static Site Generator**: Jekyll 4.3
-- **Theme**: Just the Docs
-- **Search**: Lunr.js
+- **Static Site Generator**: MkDocs with Material theme
+- **Search**: Built-in MkDocs search
 - **Deployment**: GitHub Pages with Actions
-- **Monitoring**: GitHub Actions for link checking and validation
+- **Monitoring**: Automated link checking and validation
 
 ## 📊 Site Features
 
 - 🔍 Full-text search across all content
 - 📱 Mobile-responsive design
-- 🎨 Custom styling for data visualizations
+- 🎨 Material Design theming
 - 🔗 Automatic link validation
-- 📈 Network visualizations for community connections
-- 🏷️ Tag-based content discovery
+- 🌙 Dark mode support
+- 📱 Progressive Web App features
 
 ## 🧪 Testing
 
-Run tests locally:
+The site includes automated testing for:
+- Link validation
+- Content structure
+- Build process
 
-```bash
-# Check links
-bundle exec htmlproofer ./_site --disable-external
-
-# Validate front matter
-npm test
-
-# Spell check
-npx cspell "**/*.md"
-```
+Tests run automatically on pull requests and deployments.
 
 ## 📄 License
 
@@ -116,14 +115,14 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 🙏 Acknowledgments
 
 - All contributors and community members
-- Organizations providing open data and tools
+- Organizations providing open data and tools  
 - Researchers advancing the field
 
 ## 📞 Contact
 
 - **GitHub Issues**: For bugs and feature requests
 - **Discussions**: For questions and ideas
-- **Email**: [contact email]
+- **SynD Community**: [Digital Health CRC](https://digitalhealthcrc.com/synthetic-data-community-of-practice-synd/)
 
 ---
 
