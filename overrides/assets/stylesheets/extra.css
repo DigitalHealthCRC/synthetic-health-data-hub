@@ -247,6 +247,29 @@
   text-align: left !important;
 }
 
+/* Aurora effect for sidebar */
+.md-sidebar__scrollwrap {
+  position: relative;
+  overflow: hidden;
+}
+
+.aurora-canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.8;
+  z-index: -1;
+  pointer-events: none;
+}
+
+/* Ensure sidebar content is above aurora */
+.md-sidebar__inner {
+  position: relative;
+  z-index: 1;
+}
+
 /* Print styles */
 @media print {
   .md-sidebar,
@@ -258,5 +281,9 @@
   .md-content {
     margin: 0;
     padding: 0;
+  }
+  
+  .aurora-canvas {
+    display: none;
   }
 }

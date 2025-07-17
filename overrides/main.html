@@ -1,0 +1,117 @@
+{% extends "base.html" %}
+
+{% block scripts %}
+  {{ super() }}
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      // Create aurora canvas for sidebar
+      const sidebar = document.querySelector('.md-sidebar__scrollwrap');
+      if (sidebar) {
+        const canvas = document.createElement('canvas');
+        canvas.id = 'aurora-canvas';
+        canvas.className = 'aurora-canvas';
+        sidebar.appendChild(canvas);
+        
+        const ctx = canvas.getContext('2d');
+
+        // Aurora parameters
+        const colorStops = ['#bb04a0', '#4a018b', '#5227FF'];
+        const amplitude = 0.3;
+        const frequency = 0.01;
+        const speed = 0.005;
+        const layerOpacity = 0.3;
+
+        // Resize canvas to match sidebar
+        function resizeCanvas() {
+          const rect = sidebar.getBoundingClientRect();
+          canvas.width = rect.width;
+          canvas.height = rect.height;
+        }
+        
+        resizeCanvas();
+        window.addEventListener('resize', resizeCanvas);
+
+        // Simple noise function
+        function noise(x, y, t) {
+          const n = Math.sin(x * frequency + t) * Math.cos(y * frequency + t * 0.8) +
+                   Math.sin(x * frequency * 2 - t * 1.2) * Math.cos(y * frequency * 3 + t) * 0.5 +
+                   Math.sin(x * frequency * 3 + t * 0.5) * Math.cos(y * frequency - t * 1.5) * 0.25;
+          return (n + 1.5) / 3;
+        }
+
+        // Color interpolation
+        function interpolateColor(color1, color2, factor) {
+          const r1 = parseInt(color1.substr(1, 2), 16);
+          const g1 = parseInt(color1.substr(3, 2), 16);
+          const b1 = parseInt(color1.substr(5, 2), 16);
+          
+          const r2 = parseInt(color2.substr(1, 2), 16);
+          const g2 = parseInt(color2.substr(3, 2), 16);
+          const b2 = parseInt(color2.substr(5, 2), 16);
+          
+          const r = Math.round(r1 + (r2 - r1) * factor);
+          const g = Math.round(g1 + (g2 - g1) * factor);
+          const b = Math.round(b1 + (b2 - b1) * factor);
+          
+          return `rgb(${r}, ${g}, ${b})`;
+        }
+
+        // Animation
+        let time = 0;
+        let animationId;
+        
+        function drawAurora() {
+          if (canvas.width === 0 || canvas.height === 0) {
+            animationId = requestAnimationFrame(drawAurora);
+            return;
+          }
+          
+          ctx.clearRect(0, 0, canvas.width, canvas.height);
+          
+          // Create multiple aurora layers
+          for (let layer = 0; layer < 3; layer++) {
+            ctx.globalAlpha = layerOpacity;
+            
+            // Draw aurora waves
+            for (let x = 0; x < canvas.width; x += 5) {
+              const noiseValue = noise(x, layer * 100, time);
+              const height = noiseValue * canvas.height * amplitude;
+              const y = canvas.height * 0.3 + height + layer * 50;
+              
+              // Color based on position
+              const colorFactor = x / canvas.width;
+              let color;
+              if (colorFactor < 0.5) {
+                color = interpolateColor(colorStops[0], colorStops[1], colorFactor * 2);
+              } else {
+                color = interpolateColor(colorStops[1], colorStops[2], (colorFactor - 0.5) * 2);
+              }
+              
+              // Create gradient
+              const gradient = ctx.createLinearGradient(x, y - height, x, y + height);
+              gradient.addColorStop(0, 'transparent');
+              gradient.addColorStop(0.5, color);
+              gradient.addColorStop(1, 'transparent');
+              
+              ctx.fillStyle = gradient;
+              ctx.fillRect(x, y - height, 5, height * 2);
+            }
+          }
+          
+          time += speed;
+          animationId = requestAnimationFrame(drawAurora);
+        }
+        
+        // Start animation
+        drawAurora();
+        
+        // Cleanup on page unload
+        window.addEventListener('beforeunload', function() {
+          if (animationId) {
+            cancelAnimationFrame(animationId);
+          }
+        });
+      }
+    });
+  </script>
+{% endblock %}
