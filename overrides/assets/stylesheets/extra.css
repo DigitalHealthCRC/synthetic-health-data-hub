@@ -7,11 +7,13 @@
   --md-primary-fg-color--dark: #0039cb;
   --md-accent-fg-color: #e100ff;
   --md-accent-fg-color--transparent: #e100ff1a;
+  --dark-blue: #001f3f;
+  --dark-pink: #8b0051;
 }
 
 /* Hero section on homepage */
 .hero-section {
-  text-align: center;
+  text-align: left;
   padding: 3rem 1rem;
   margin: 2rem 0;
   background: linear-gradient(135deg, var(--md-primary-fg-color--transparent) 0%, var(--md-accent-fg-color--transparent) 100%);
@@ -22,6 +24,7 @@
   font-size: 2rem;
   margin-bottom: 1rem;
   color: var(--md-primary-fg-color);
+  text-align: left;
 }
 
 /* Card grid layout */
@@ -69,7 +72,7 @@
 
 /* Footer styling */
 .footer-links {
-  text-align: center;
+  text-align: left;
   padding: 2rem 0;
   margin-top: 4rem;
   border-top: 1px solid var(--md-default-fg-color--lightest);
@@ -189,8 +192,59 @@
 
 /* Mermaid diagram styling */
 .mermaid {
-  text-align: center;
+  text-align: left;
   margin: 2rem 0;
+}
+
+/* Header gradient background */
+.md-header {
+  background: linear-gradient(135deg, var(--dark-blue) 0%, var(--dark-pink) 100%) !important;
+}
+
+/* Make logo bigger */
+.md-header__button.md-logo img {
+  height: 3rem !important;
+  width: auto !important;
+}
+
+/* Left-align all text */
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3,
+.md-typeset h4,
+.md-typeset h5,
+.md-typeset h6 {
+  text-align: left !important;
+}
+
+.md-typeset {
+  text-align: left !important;
+}
+
+/* Fix button text visibility */
+.md-button {
+  background-color: var(--md-primary-fg-color) !important;
+  color: white !important;
+}
+
+.md-button:hover {
+  background-color: var(--md-primary-fg-color--dark) !important;
+  color: white !important;
+  text-decoration: none !important;
+}
+
+/* Left-align hero section */
+.hero-section {
+  text-align: left !important;
+}
+
+.hero-section h2 {
+  text-align: left !important;
+}
+
+/* Left-align footer */
+.footer-links {
+  text-align: left !important;
 }
 
 /* Print styles */
