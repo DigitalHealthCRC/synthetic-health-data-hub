@@ -82,7 +82,7 @@ This hub is a community effort. We welcome contributions of all kinds:
 - Regulatory insights and compliance guides
 - Tool reviews and comparisons
 
-See our [Contributing Guide](https://github.com/DigitalHealthCRCLimited/synthetic-health-data-hub/blob/main/CONTRIBUTING.md) to get started.
+See our [Contributing Guide](resources/CONTRIBUTING.md) to get started.
 
 ---
 

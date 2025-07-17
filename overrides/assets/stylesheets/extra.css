@@ -1,5 +1,8 @@
 /* Custom styles for Synthetic Health Data Hub */
 
+/* Import custom fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
 :root {
   /* Override Material theme colors to match our branding */
   --md-primary-fg-color: #0051ff;
@@ -9,6 +12,104 @@
   --md-accent-fg-color--transparent: #e100ff1a;
   --dark-blue: #001f3f;
   --dark-pink: #8b0051;
+  
+  /* Link colors inspired by Digital Health CRC */
+  --link-color: #0051ff;
+  --link-hover-color: #e100ff;
+  --link-visited-color: #0039cb;
+  
+  /* Typography */
+  --md-text-font: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --md-code-font: "JetBrains Mono", "Fira Code", monospace;
+}
+
+/* Global typography */
+body {
+  font-family: var(--md-text-font);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Heading styles */
+.md-typeset h1 {
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.md-typeset h2 {
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+.md-typeset h3,
+.md-typeset h4 {
+  font-weight: 600;
+}
+
+/* Link styling inspired by Digital Health CRC */
+.md-typeset a {
+  color: var(--link-color);
+  text-decoration: none;
+  transition: all 0.2s ease;
+  position: relative;
+  font-weight: 500;
+}
+
+.md-typeset a:hover {
+  color: var(--link-hover-color);
+  text-decoration: none;
+}
+
+.md-typeset a:visited {
+  color: var(--link-visited-color);
+}
+
+/* Add underline effect on hover */
+.md-typeset a::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: -2px;
+  left: 0;
+  background-color: var(--link-hover-color);
+  transition: width 0.2s ease;
+}
+
+.md-typeset a:hover::after {
+  width: 100%;
+}
+
+/* Special styling for navigation links */
+.md-nav__link {
+  transition: all 0.2s ease;
+  border-radius: 4px;
+  padding: 0.3rem 0.6rem;
+  margin: 0.1rem 0;
+}
+
+.md-nav__link:hover {
+  background-color: var(--md-accent-fg-color--transparent);
+  color: var(--link-hover-color);
+}
+
+/* Tag/label link styling similar to tagcloud */
+.md-tag {
+  display: inline-block;
+  padding: 0.3em 0.8em;
+  margin: 0.2em;
+  font-size: 0.9em;
+  border: 1px solid var(--link-color);
+  border-radius: 4px;
+  color: var(--link-color);
+  transition: all 0.2s ease;
+  text-decoration: none;
+}
+
+.md-tag:hover {
+  color: white;
+  border-color: var(--link-hover-color);
+  background-color: var(--link-hover-color);
 }
 
 /* Hero section on homepage */
@@ -53,21 +154,40 @@
   color: var(--md-primary-fg-color);
 }
 
-/* Buttons */
+/* Buttons with enhanced transitions */
 .md-button {
   display: inline-block;
-  padding: 0.5rem 1rem;
+  padding: 0.6rem 1.2rem;
   background-color: var(--md-primary-fg-color);
   color: white;
+  border: 2px solid var(--md-primary-fg-color);
   border-radius: 4px;
   text-decoration: none;
-  transition: background-color 0.2s;
+  transition: all 0.2s ease;
   font-weight: 500;
+  position: relative;
+  overflow: hidden;
 }
 
 .md-button:hover {
-  background-color: var(--md-primary-fg-color--dark);
+  background-color: transparent;
+  color: var(--md-primary-fg-color);
+  border-color: var(--md-primary-fg-color);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 81, 255, 0.2);
+}
+
+/* Alternative button style */
+.md-button--secondary {
+  background-color: transparent;
+  color: var(--md-accent-fg-color);
+  border-color: var(--md-accent-fg-color);
+}
+
+.md-button--secondary:hover {
+  background-color: var(--md-accent-fg-color);
   color: white;
+  border-color: var(--md-accent-fg-color);
 }
 
 /* Footer styling */
@@ -221,16 +341,19 @@
   text-align: left !important;
 }
 
-/* Fix button text visibility */
+/* Ensure button styles override Material defaults */
 .md-button {
   background-color: var(--md-primary-fg-color) !important;
   color: white !important;
+  border: 2px solid var(--md-primary-fg-color) !important;
 }
 
 .md-button:hover {
-  background-color: var(--md-primary-fg-color--dark) !important;
-  color: white !important;
+  background-color: transparent !important;
+  color: var(--md-primary-fg-color) !important;
   text-decoration: none !important;
+  transform: translateY(-2px) !important;
+  box-shadow: 0 4px 8px rgba(0, 81, 255, 0.2) !important;
 }
 
 /* Left-align hero section */

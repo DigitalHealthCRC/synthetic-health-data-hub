@@ -45,7 +45,8 @@
       "WebFetch(domain:www.nist.gov)",
       "WebFetch(domain:csrc.nist.gov)",
       "WebFetch(domain:privacyruleandresearch.nih.gov)",
-      "Bash([ -f setup.sh ])"
+      "Bash([ -f setup.sh ])",
+      "WebFetch(domain:digitalhealthcrc.com)"
     ],
     "deny": []
   }
