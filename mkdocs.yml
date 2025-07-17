@@ -1,0 +1,167 @@
+site_name: Synthetic Health Data Hub
+site_description: The definitive resource hub for tabular synthetic health data, covering algorithms, tools, regulations, and community resources.
+site_url: https://digitalhealthcrclimited.github.io/synthetic-health-data-hub/
+repo_url: https://github.com/DigitalHealthCRCLimited/synthetic-health-data-hub
+repo_name: DigitalHealthCRCLimited/synthetic-health-data-hub
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  custom_dir: overrides
+  logo: https://digitalhealthcrc.com/wp-content/uploads/2024/07/SynD-logo-transparent-200x117.png.webp
+  favicon: https://digitalhealthcrc.com/wp-content/uploads/2024/07/SynD-logo-transparent-200x117.png.webp
+  features:
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.path
+    - navigation.prune
+    - navigation.indexes
+    - navigation.top
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - content.code.annotate
+    - content.tabs.link
+    - content.tooltips
+  palette:
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: deep purple
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: deep purple
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+  font:
+    text: Inter
+    code: JetBrains Mono
+
+plugins:
+  - search:
+      lang: en
+  - minify:
+      minify_html: true
+  - redirects:
+      redirect_maps:
+        'index.md': 'README.md'
+  - git-revision-date-localized:
+      enable_creation_date: true
+      type: date
+
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+      toc_depth: 3
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      normalize_issue_symbols: true
+      repo_url_shorthand: true
+      user: DigitalHealthCRCLimited
+      repo: synthetic-health-data-hub
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.snippets:
+      auto_append:
+        - includes/abbreviations.md
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+      combine_header_slug: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+nav:
+  - Home: index.md
+  - Technical:
+    - technical/index.md
+    - Algorithms:
+      - technical/algorithms/index.md
+      - CTGAN: technical/algorithms/ctgan.md
+      - TVAE: technical/algorithms/tvae.md
+      - DataSynthesizer: technical/algorithms/datasynthesizer.md
+      - SDV Overview: technical/algorithms/sdv-overview.md
+    - Evaluation Metrics: technical/evaluation-metrics.md
+  - Ecosystem:
+    - ecosystem/index.md
+    - Open Source:
+      - ecosystem/open-source/index.md
+      - SDV: ecosystem/open-source/sdv.md
+  - Regulatory:
+    - regulatory/index.md
+    - HIPAA: regulatory/hipaa.md
+    - GDPR: regulatory/gdpr.md
+    - PIPEDA: regulatory/pipeda.md
+  - Community:
+    - community/index.md
+    - Leaders:
+      - community/leaders/index.md
+      - Dr. Cynthia Dwork: community/leaders/cynthia-dwork.md
+      - Dr. Khaled El Emam: community/leaders/el-emam-khaled.md
+      - Dr. Kalyan Veeramachaneni: community/leaders/veeramachaneni-kalyan.md
+      - Dr. Mihaela van der Schaar: community/leaders/schaar-mihaela.md
+      - Dr. Brett Beaulieu-Jones: community/leaders/beaulieu-jones-brett.md
+      - Craig Jordan: community/leaders/jordan-craig.md
+    - SynD Community: community/synd-community.md
+  - Resources:
+    - resources/index.md
+    - Getting Started: resources/getting-started.md
+    - Best Practices: resources/best-practices.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/DigitalHealthCRCLimited
+    - icon: fontawesome/solid/globe
+      link: https://digitalhealthcrc.com
+  copyright: Copyright &copy; 2024 Digital Health CRC. Synthetic Health Data Hub is a project of the <a href='https://digitalhealthcrc.com'>Digital Health Cooperative Research Centre</a>.
+
+extra_css:
+  - assets/stylesheets/extra.css
+
+extra_javascript:
+  - https://unpkg.com/mermaid@10/dist/mermaid.min.js

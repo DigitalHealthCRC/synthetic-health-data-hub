@@ -1,0 +1,208 @@
+/* Custom styles for Synthetic Health Data Hub */
+
+:root {
+  /* Override Material theme colors to match our branding */
+  --md-primary-fg-color: #0051ff;
+  --md-primary-fg-color--light: #4285f4;
+  --md-primary-fg-color--dark: #0039cb;
+  --md-accent-fg-color: #e100ff;
+  --md-accent-fg-color--transparent: #e100ff1a;
+}
+
+/* Hero section on homepage */
+.hero-section {
+  text-align: center;
+  padding: 3rem 1rem;
+  margin: 2rem 0;
+  background: linear-gradient(135deg, var(--md-primary-fg-color--transparent) 0%, var(--md-accent-fg-color--transparent) 100%);
+  border-radius: 8px;
+}
+
+.hero-section h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: var(--md-primary-fg-color);
+}
+
+/* Card grid layout */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.card {
+  background: var(--md-code-bg-color);
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 8px;
+  padding: 1.5rem;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.card h3 {
+  margin-top: 0;
+  color: var(--md-primary-fg-color);
+}
+
+/* Buttons */
+.md-button {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background-color: var(--md-primary-fg-color);
+  color: white;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background-color 0.2s;
+  font-weight: 500;
+}
+
+.md-button:hover {
+  background-color: var(--md-primary-fg-color--dark);
+  color: white;
+}
+
+/* Footer styling */
+.footer-links {
+  text-align: center;
+  padding: 2rem 0;
+  margin-top: 4rem;
+  border-top: 1px solid var(--md-default-fg-color--lightest);
+}
+
+/* Table improvements */
+.md-typeset table {
+  margin: 1.5rem 0;
+}
+
+.md-typeset table th {
+  background-color: var(--md-primary-fg-color--transparent);
+  font-weight: 600;
+}
+
+.md-typeset table tr:hover {
+  background-color: var(--md-default-fg-color--lightest);
+}
+
+/* Code block enhancements */
+.md-typeset pre {
+  margin: 1.5rem 0;
+}
+
+/* Admonition customization */
+.md-typeset .admonition.tip,
+.md-typeset details.tip {
+  border-color: var(--md-accent-fg-color);
+}
+
+.md-typeset .admonition.tip > .admonition-title,
+.md-typeset details.tip > summary {
+  background-color: var(--md-accent-fg-color--transparent);
+  border-color: var(--md-accent-fg-color);
+}
+
+/* Navigation improvements */
+.md-nav__item--active > .md-nav__link {
+  color: var(--md-accent-fg-color);
+  font-weight: 600;
+}
+
+/* Search highlighting */
+.md-search-result mark {
+  background-color: var(--md-accent-fg-color--transparent);
+  color: var(--md-accent-fg-color);
+}
+
+/* Mobile responsive adjustments */
+@media screen and (max-width: 768px) {
+  .hero-section h2 {
+    font-size: 1.5rem;
+  }
+  
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Algorithm comparison tables */
+.algorithm-comparison th:first-child {
+  width: 30%;
+}
+
+.algorithm-comparison td:first-child {
+  font-weight: 600;
+}
+
+/* Leader profile styling */
+.leader-profile {
+  border-left: 4px solid var(--md-primary-fg-color);
+  padding-left: 1rem;
+  margin: 1rem 0;
+}
+
+/* Regulation cards */
+.regulation-card {
+  background: var(--md-code-bg-color);
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin: 1.5rem 0;
+}
+
+.regulation-card h3 {
+  margin-top: 0;
+  color: var(--md-primary-fg-color);
+}
+
+/* Quick reference boxes */
+.quick-reference {
+  background: var(--md-primary-fg-color--transparent);
+  border-radius: 4px;
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+/* Icon lists */
+.icon-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.icon-list li {
+  padding-left: 1.5rem;
+  position: relative;
+  margin: 0.5rem 0;
+}
+
+.icon-list li:before {
+  content: "→";
+  position: absolute;
+  left: 0;
+  color: var(--md-accent-fg-color);
+  font-weight: bold;
+}
+
+/* Mermaid diagram styling */
+.mermaid {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+/* Print styles */
+@media print {
+  .md-sidebar,
+  .md-header,
+  .md-footer {
+    display: none;
+  }
+  
+  .md-content {
+    margin: 0;
+    padding: 0;
+  }
+}

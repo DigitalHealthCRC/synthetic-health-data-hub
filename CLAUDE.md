@@ -2,68 +2,62 @@
 USE AUSTRALIAN ENGLISH SPELLING
 AVOID TITLE_CASE, Only Captalize the first letter of each sentence, or specific names or accronyms.
 ## Project Overview
-This is a Jekyll-based documentation site for synthetic health data resources. The site aims to be the definitive resource hub for tabular synthetic health data, covering algorithms, tools, regulations, and community resources.
+This is a MkDocs Material-based documentation site for synthetic health data resources. The site aims to be the definitive resource hub for tabular synthetic health data, covering algorithms, tools, regulations, and community resources.
 
-## Current Setup
-- **Jekyll Theme**: 
-` (stable GitHub Pages theme)
+## Current Setup (MIGRATED TO MKDOCS)
+- **Framework**: MkDocs with Material theme
 - **Base URL**: `/synthetic-health-data-hub`
 - **URL**: `https://digitalhealthcrclimited.github.io`
 - **Repository**: `DigitalHealthCRCLimited/synthetic-health-data-hub`
 - **Logo**: SynD logo (https://digitalhealthcrc.com/wp-content/uploads/2024/07/SynD-logo-transparent-200x117.png.webp)
+- **Branch**: Currently on `mkdocs-migration` branch
 
 ## Recent Updates
-1. Switched from `just-the-docs` to `jekyll-theme-minimal` for better GitHub Pages compatibility
-2. Implemented clean, modern design with custom CSS
-3. Added mobile-responsive navigation with hamburger menu
-4. Created Jekyll data files for regulations
-5. Fixed all build errors and broken links
-6. Created comprehensive CONTRIBUTING.md with templates
-7. Added technical content:
-   - TVAE algorithm documentation
-   - DataSynthesizer algorithm documentation
-   - SDV overview page
-   - Evaluation metrics comprehensive guide
-8. Added community profiles:
-   - Prof. Mihaela van der Schaar
-   - Dr. Khaled El Emam
-   - Dr. Kalyan Veeramachaneni
-   - Dr. Brett Beaulieu-Jones
-   - Craig Jordan
-9. Added regulatory guides:
-   - HIPAA compliance guide
-   - PIPEDA compliance guide
+1. **MAJOR UPDATE**: Migrated from Jekyll to MkDocs Material
+   - Better search functionality
+   - Modern UI with Material Design
+   - Faster build times
+   - Python-based (easier maintenance)
+2. Migrated all content to MkDocs structure
+3. Set up GitHub Actions for automated deployment
+4. Created comprehensive documentation:
+   - Technical content (TVAE, DataSynthesizer, SDV, CTGAN, Evaluation metrics)
+   - Community profiles (6 leaders)
+   - Regulatory guides (GDPR, HIPAA, PIPEDA)
+   - Getting started guide
+   - Best practices guide
+5. Added custom styling to match branding
+6. Implemented abbreviations for technical terms
 
-## Project Structure
+## Project Structure (MkDocs)
 ```
 /
-├── _config.yml              # Jekyll configuration
-├── index.md                # Home page
-├── technical-resources.md  # Technical section landing
-├── ecosystem.md            # Software ecosystem landing
-├── regulatory.md           # Regulatory compliance landing
-├── community.md            # Community section landing
-├── education.md            # Education resources landing
-├── use-cases.md            # Use cases landing
-├── privacy-security.md     # Privacy & security landing
-├── benchmarks.md           # Benchmarks landing
-├── _technical/             # Technical content collection
-├── _ecosystem/             # Software ecosystem collection
-├── _regulatory/            # Regulatory content collection
-├── _community/             # Community profiles collection
-├── _education/             # Education content collection
-├── _use_cases/             # Use cases collection
-├── _privacy_security/      # Privacy content collection
-├── _benchmarks/            # Benchmarks collection
-└── .github/workflows/      # GitHub Actions for deployment
+├── mkdocs.yml              # MkDocs configuration
+├── requirements.txt        # Python dependencies
+├── docs/                   # All documentation content
+│   ├── index.md           # Homepage
+│   ├── technical/         # Technical documentation
+│   ├── ecosystem/         # Tools and ecosystem
+│   ├── regulatory/        # Compliance guides
+│   ├── community/         # Community resources
+│   └── resources/         # Guides and best practices
+├── overrides/             # Theme customizations
+│   └── assets/
+│       └── stylesheets/
+│           └── extra.css  # Custom CSS
+├── includes/              # Reusable content
+│   └── abbreviations.md   # Common abbreviations
+└── .github/workflows/     # GitHub Actions
+    └── mkdocs.yml        # MkDocs deployment workflow
 ```
 
 ## Design System
-- **Primary Color**: #2563eb (blue)
+- **Primary Color**: #0051ff (blue) - Updated to match branding
 - **Secondary Color**: #e100ff (purple) 
 - **Typography**: Inter font family
-- **CSS Variables**: Modern approach using CSS custom properties
-- **Mobile First**: Responsive design with hamburger menu
+- **Code Font**: JetBrains Mono
+- **Theme**: Material Design with custom overrides
+- **Features**: Dark mode, search, navigation tabs
 
 ## Navigation Structure
 The site has 9 main sections:
@@ -80,17 +74,24 @@ The site has 9 main sections:
 Each section has child pages organized in Jekyll collections.
 
 ## Deployment
-- Uses GitHub Actions workflow (`.github/workflows/deploy.yml`)
-- Builds with Jekyll and deploys to GitHub Pages
-- Includes link checking
+- Uses GitHub Actions workflow (`.github/workflows/mkdocs.yml`)
+- Builds with MkDocs and deploys to GitHub Pages
+- Includes automatic link checking on PRs
+- Python-based build process
 
 ## Important Commands
 ```bash
-# Local development (if Jekyll is installed)
-bundle exec jekyll serve
+# Install dependencies
+pip install -r requirements.txt
+
+# Local development
+mkdocs serve
 
 # Build site
-bundle exec jekyll build
+mkdocs build --strict
+
+# Deploy to GitHub Pages (manual)
+mkdocs gh-deploy
 ```
 
 ## Progress Summary
@@ -105,12 +106,13 @@ bundle exec jekyll build
 - Community profiles (5 leaders)
 - Regulatory guides (GDPR, HIPAA, PIPEDA)
 
-### 📊 Content Count
+### 📊 Content Count (Post-Migration)
 - **Technical Pages**: 5 (CTGAN, TVAE, DataSynthesizer, SDV Overview, Evaluation Metrics)
 - **Community Profiles**: 6 (including Cynthia Dwork)
 - **Regulatory Guides**: 3 (GDPR, HIPAA, PIPEDA)
+- **Resources**: 2 (Getting Started, Best Practices)
 - **Main Section Pages**: 9
-- **Total Content Pages**: 23
+- **Total Content Pages**: 25+
 
 ### 🎯 Next Steps
 1. Add more algorithm pages (Synthpop, GaussianCopula, TimeGAN)

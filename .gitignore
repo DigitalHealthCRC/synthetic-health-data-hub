@@ -1,11 +1,26 @@
-# Jekyll
+# MkDocs
+site/
+.cache/
+
+# Jekyll (to be removed after migration)
 _site/
 .sass-cache/
 .jekyll-cache/
 .jekyll-metadata
 vendor/
 
-# Ruby
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv
+
+# Ruby (to be removed after migration)
 *.gem
 *.rbc
 /.config

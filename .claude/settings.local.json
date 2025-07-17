@@ -32,7 +32,9 @@
       "WebFetch(domain:github.com)",
       "WebFetch(domain:pages.github.com)",
       "WebFetch(domain:cran.r-project.org)",
-      "WebFetch(domain:squidfunk.github.io)"
+      "WebFetch(domain:squidfunk.github.io)",
+      "Bash(git checkout:*)",
+      "Bash(python:*)"
     ],
     "deny": []
   }

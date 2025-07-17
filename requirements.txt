@@ -1,0 +1,5 @@
+mkdocs-material==9.5.49
+mkdocs-minify-plugin
+mkdocs-redirects
+pymdown-extensions
+mkdocs-git-revision-date-localized-plugin
