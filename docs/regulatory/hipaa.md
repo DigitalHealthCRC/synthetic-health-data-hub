@@ -1,5 +1,3 @@
-# HIPAA Compliance
-
 # HIPAA Compliance for Synthetic Health Data
 
 ## Overview

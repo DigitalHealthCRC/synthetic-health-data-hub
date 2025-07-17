@@ -1,6 +1,8 @@
-# Synthetic Health Data Hub
+
 
 <div class="hero-section" markdown="1">
+
+# Synthetic Health Data Hub
 
 ## Your comprehensive guide to synthetic health data generation
 

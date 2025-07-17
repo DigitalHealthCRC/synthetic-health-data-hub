@@ -1,7 +1,5 @@
 # Technical Resources
 
-# Technical Resources
-
 Comprehensive technical documentation for synthetic health data generation, including algorithms, data types, and evaluation methods.
 
 ## Overview

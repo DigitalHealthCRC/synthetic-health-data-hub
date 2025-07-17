@@ -1,4 +1,3 @@
-# GDPR Compliance
 
 # GDPR Compliance for Synthetic Health Data
 

@@ -1,7 +1,5 @@
 # Community
 
-# Community
-
 Connect with the global synthetic health data community of researchers, practitioners, and organizations.
 
 ## Overview

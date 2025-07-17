@@ -1,7 +1,5 @@
 # CTGAN (Conditional Tabular GAN)
 
-# CTGAN (Conditional Tabular GAN)
-
 CTGAN is a GAN-based synthetic data generator designed specifically for tabular data with mixed data types.
 
 ## Overview

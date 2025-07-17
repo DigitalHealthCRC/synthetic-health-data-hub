@@ -1,4 +1,3 @@
-# PIPEDA Compliance
 
 # PIPEDA Compliance for Synthetic Health Data
 

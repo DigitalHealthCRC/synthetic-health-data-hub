@@ -1,4 +1,3 @@
-# Evaluation Metrics
 
 # Evaluation Metrics for Synthetic Health Data
 
