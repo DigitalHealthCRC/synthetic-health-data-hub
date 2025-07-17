@@ -322,7 +322,7 @@ Performance characteristics:
 
 ## Related Methods
 
-- [PAR (SDV)](../sdv-overview.md) - Probabilistic AutoRegressive model
+- [PAR (SDV)](sdv-overview.md) - Probabilistic AutoRegressive model
 - [RCGAN](https://github.com/ratschlab/RGAN) - Recurrent Conditional GAN
 - [C-RNN-GAN](https://github.com/olofmogren/c-rnn-gan) - Continuous RNN GAN
 - [TimeVAE](https://github.com/abudesai/timeVAE) - VAE for time series

@@ -83,7 +83,6 @@ Craig Jordan brings a unique clinical perspective to synthetic data generation, 
 
 ## Connect
 - **Company**: [Replica Analytics](https://replica-analytics.com/)
-- **LinkedIn**: [Craig Jordan](https://www.linkedin.com/in/craig-jordan-healthcare/)
 - **Speaking**: Available for healthcare conferences
 - **Email**: Through Replica Analytics website
 

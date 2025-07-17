@@ -65,7 +65,6 @@ Dr. Veeramachaneni is the co-creator of CTGAN and the Synthetic Data Vault (SDV)
 - **Lab Website**: [DAI-Lab.github.io](https://dai-lab.github.io/)
 - **GitHub**: [@kveerama](https://github.com/kveerama)
 - **MIT Faculty Page**: [Profile](https://kalyan.lids.mit.edu/)
-- **LinkedIn**: [Profile](https://www.linkedin.com/in/kalyanveeramachaneni/)
 - **Email**: kalyanv@mit.edu
 
 ## Recent Activity
