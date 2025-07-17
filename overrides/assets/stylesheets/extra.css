@@ -337,6 +337,15 @@ body {
   background: linear-gradient(315deg, #E57F00ff 0%, #EC6600ff 16%, #FB2D37ff 33%, #FA0F8Fff 50%, #B329E3ff 66%, #4F71F8ff 84%, #06CDFEff 100%) !important;
 }
 
+/* Make tabs transparent to show gradient */
+.md-tabs {
+  background: transparent !important;
+}
+
+.md-tabs__item {
+  background: transparent !important;
+}
+
 /* Make logo bigger */
 .md-header__button.md-logo img {
   height: 3rem !important;
@@ -407,6 +416,23 @@ body {
 .md-sidebar__inner {
   position: relative;
   z-index: 1;
+}
+
+/* Dark mode styles */
+[data-md-color-scheme="slate"] {
+  /* Pure black background */
+  --md-default-bg-color: #000000;
+  
+  /* Dark gray for sidebars - between black and main content */
+  --md-sidebar-bg-color: #1a1a1a;
+}
+
+[data-md-color-scheme="slate"] .md-sidebar {
+  background-color: var(--md-sidebar-bg-color);
+}
+
+[data-md-color-scheme="slate"] .md-sidebar--secondary {
+  background-color: var(--md-sidebar-bg-color);
 }
 
 /* Print styles */
