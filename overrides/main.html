@@ -76,7 +76,7 @@
             for (let y = 0; y < canvas.height; y += 5) {
               const noiseValue = noise(layer * 100, y, time);
               const width = noiseValue * canvas.width * amplitude;
-              const x = canvas.width * 0.5 + width + layer * 20;
+              const x = canvas.width * 1 + width + layer * 20;
               
               // Color based on vertical position
               const colorFactor = y / canvas.height;
