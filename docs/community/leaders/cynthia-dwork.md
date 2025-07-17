@@ -1,7 +1,5 @@
 # Prof. Cynthia Dwork
 
-# Prof. Cynthia Dwork
-
 ## Pioneer of Differential Privacy
 
 ![Cynthia Dwork](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Cynthia_Dwork_lectures_at_Harvard_Kennedy_School.jpg/1200px-Cynthia_Dwork_lectures_at_Harvard_Kennedy_School.jpg)

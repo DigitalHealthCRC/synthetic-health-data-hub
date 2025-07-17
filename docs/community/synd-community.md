@@ -1,5 +1,3 @@
-# SynD Community of Practice
-
 # SynD: Synthetic Data Community of Practice
 
 ## Overview

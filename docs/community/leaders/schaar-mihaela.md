@@ -1,7 +1,5 @@
 # Prof. Mihaela van der Schaar
 
-# Prof. Mihaela van der Schaar
-
 ## Overview
 - **Current Role**: John Humphrey Plummer Professor of Machine Learning, Artificial Intelligence and Medicine, University of Cambridge
 - **Location**: Cambridge, United Kingdom

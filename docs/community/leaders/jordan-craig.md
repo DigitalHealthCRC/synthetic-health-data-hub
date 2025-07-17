@@ -1,7 +1,5 @@
 # Craig Jordan
 
-# Craig Jordan
-
 ## Overview
 - **Current Role**: Chief Clinical Information Officer & Co-Founder, Replica Analytics
 - **Location**: Ottawa, Canada

@@ -1,7 +1,5 @@
 # Dr. Brett Beaulieu-Jones
 
-# Dr. Brett Beaulieu-Jones
-
 ## Overview
 - **Current Role**: Assistant Professor of Biomedical Informatics, University of Chicago
 - **Location**: Chicago, Illinois, USA

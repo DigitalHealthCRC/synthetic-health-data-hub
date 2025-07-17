@@ -1,7 +1,5 @@
 # Dr. Kalyan Veeramachaneni
 
-# Dr. Kalyan Veeramachaneni
-
 ## Overview
 - **Current Role**: Principal Research Scientist, MIT Computer Science and Artificial Intelligence Laboratory (CSAIL)
 - **Location**: Cambridge, Massachusetts, USA

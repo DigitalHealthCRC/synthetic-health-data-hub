@@ -1,7 +1,5 @@
 # Dr. Khaled El Emam
 
-# Dr. Khaled El Emam
-
 ## Overview
 - **Current Role**: Canada Research Chair in Medical AI, University of Ottawa; CEO & Founder, Replica Analytics
 - **Location**: Ottawa, Canada
