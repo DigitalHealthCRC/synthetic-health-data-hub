@@ -1,0 +1,5 @@
+# This entire directory is archived Jekyll content
+# It should not be processed by MkDocs or other build systems
+*
+!README.md
+!.gitignore
