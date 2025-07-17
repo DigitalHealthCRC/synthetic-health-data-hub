@@ -8,7 +8,7 @@ Thank you for your interest in contributing to the Synthetic Health Data Hub! Th
 - **Technical Resources**: Add new algorithms, evaluation methods, or implementation guides
 - **Tool Reviews**: Share experiences with synthetic data tools and platforms
 - **Regulatory Updates**: Help keep compliance information current
-- **Community Profiles**: Nominate leaders or add organization information
+- **Community Profiles**: Nominate leaders or add organisation information
 - **Educational Resources**: Share courses, papers, or tutorials
 
 ### 2. Improvements
@@ -123,7 +123,7 @@ permalink: /community/leaders/[lastname-firstname]/
 # [Full Name]
 
 ## Overview
-- **Current Role**: [Title, Organization]
+- **Current Role**: [Title, organisation]
 - **Location**: [City, Country]
 - **Expertise**: [Key areas - e.g., differential privacy, clinical applications]
 - **Active Since**: [Year entered synthetic data field]
@@ -172,18 +172,18 @@ Brief paragraph about their impact on the field.
 *Verified: [✓ Self-verified / Community verified]*
 ```
 
-### Organization Profile Template
+### organisation Profile Template
 
-Create in `_community/organizations/[org-name].md`:
+Create in `_community/organisations/[org-name].md`:
 
 ```markdown
 ---
 layout: default
-title: [Organization Name]
-permalink: /community/organizations/[org-name]/
+title: [organisation Name]
+permalink: /community/organisations/[org-name]/
 ---
 
-# [Organization Name]
+# [organisation Name]
 
 ## Overview
 - **Type**: [Academic/Commercial/Government/NGO]
@@ -218,7 +218,7 @@ Brief description of their work in synthetic health data.
 
 ## Resources
 - **Website**: [URL]
-- **GitHub**: [Organization URL]
+- **GitHub**: [organisation URL]
 - **Publications**: [Link to list]
 
 ---
@@ -324,7 +324,7 @@ Consequence: [Result]
 - **Accessible**: Write for a diverse audience (researchers to policymakers)
 
 ### Formatting
-- Use headers to organize content hierarchically (##, ###, ####)
+- Use headers to organise content hierarchically (##, ###, ####)
 - Include a table of contents for pages longer than 500 words
 - Use bullet points for lists of 3 or more items
 - Add code blocks with appropriate syntax highlighting
@@ -336,7 +336,7 @@ Consequence: [Result]
 - Be descriptive but concise
 - Follow existing patterns in each section
 - For people: `lastname-firstname.md`
-- For organizations: `organization-name.md`
+- For organisations: `organisation-name.md`
 
 ### Commit Messages
 Follow conventional commits:
@@ -378,7 +378,7 @@ Currently seeking contributions in:
 
 ### 🟡 Medium Priority
 - Community leader profiles
-- Organization profiles
+- organisation profiles
 - Use case studies
 - Tutorial content
 - Regional regulatory guides

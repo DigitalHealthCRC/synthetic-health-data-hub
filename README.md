@@ -16,9 +16,9 @@ The definitive resource hub for tabular synthetic health data, covering algorith
 │   ├── technical/          # Algorithms, evaluation metrics
 │   ├── ecosystem/          # Open source tools and commercial platforms
 │   ├── regulatory/         # Compliance guides and regulations
-│   ├── community/          # Leader profiles and organizations
+│   ├── community/          # Leader profiles and organisations
 │   └── resources/          # Getting started guides and best practices
-├── overrides/              # MkDocs theme customizations
+├── overrides/              # MkDocs theme customisations
 ├── includes/               # Reusable content (abbreviations)
 ├── jekyll-archive/         # Archived Jekyll files
 ├── mkdocs.yml             # MkDocs configuration
@@ -80,7 +80,7 @@ We welcome contributions! See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 - **Technical Resources**: Generation algorithms, evaluation metrics
 - **Software Ecosystem**: Open source tools, commercial platforms
 - **Regulatory Compliance**: GDPR, HIPAA, regional regulations
-- **Community**: Researcher profiles, organizations, events
+- **Community**: Researcher profiles, organisations, events
 - **Resources**: Getting started guides, best practices
 
 ## 🛠️ Technology Stack
@@ -115,7 +115,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 🙏 Acknowledgments
 
 - All contributors and community members
-- Organizations providing open data and tools  
+- Organisations providing open data and tools  
 - Researchers advancing the field
 
 ## 📞 Contact

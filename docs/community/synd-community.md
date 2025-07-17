@@ -2,7 +2,7 @@
 
 ## Overview
 
-SynD (Synthetic Data Community of Practice) is an initiative by Digital Health CRC that brings together researchers, practitioners, and organizations interested in advancing the field of synthetic health data. This community serves as a collaborative platform for sharing knowledge, best practices, and innovations in synthetic data generation and application.
+SynD (Synthetic Data Community of Practice) is an initiative by Digital Health CRC that brings together researchers, practitioners, and organisations interested in advancing the field of synthetic health data. This community serves as a collaborative platform for sharing knowledge, best practices, and innovations in synthetic data generation and application.
 
 ## Mission
 
@@ -16,7 +16,7 @@ SynD aims to:
 ## Key Activities
 
 - **Knowledge Sharing**: Regular seminars and workshops on synthetic data topics
-- **Networking**: Connecting researchers, industry partners, and healthcare organizations
+- **Networking**: Connecting researchers, industry partners, and healthcare organisations
 - **Resource Development**: Creating educational materials and guidelines
 - **Project Collaboration**: Facilitating partnerships for synthetic data projects
 - **Policy Engagement**: Contributing to discussions on synthetic data governance
@@ -24,7 +24,7 @@ SynD aims to:
 ## Who Should Join
 
 - Researchers working on synthetic data methods
-- Healthcare organizations interested in data sharing
+- Healthcare organisations interested in data sharing
 - Technology companies developing synthetic data solutions
 - Policy makers and regulators
 - Students and early career researchers

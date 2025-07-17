@@ -11,7 +11,7 @@
 Professor van der Schaar is a pioneering researcher in machine learning for healthcare, with significant contributions to synthetic data generation methods. Her lab has developed several innovative approaches for generating realistic and privacy-preserving synthetic health data, particularly focusing on temporal and survival data.
 
 ### Key Innovations
-- **GANITE** - Generative Adversarial Nets for Inference of Individualized Treatment Effects
+- **GANITE** - Generative Adversarial Nets for Inference of Individualised Treatment Effects
 - **PATE-GAN** - Private Aggregation of Teacher Ensembles for synthetic data
 - **TimeGAN** - Time-series Generative Adversarial Networks
 - **GAIN** - Generative Adversarial Imputation Nets
@@ -59,7 +59,7 @@ The **van der Schaar Lab** at Cambridge focuses on:
 - Leading development of Synthcity 2.0
 - Research on LLMs for synthetic health data
 - New work on causal synthetic data generation
-- Organizing workshops on synthetic data at major conferences
+- Organising workshops on synthetic data at major conferences
 
 ## Collaboration Interests
 - Open to: Research collaborations, PhD supervision, consulting
@@ -68,7 +68,7 @@ The **van der Schaar Lab** at Cambridge focuses on:
 
 ## Impact Statement
 
-"Synthetic data is not just about privacy - it's about democratizing access to health data for research and innovation. Our goal is to make it possible for any researcher to work with realistic health data without compromising patient privacy." - Prof. van der Schaar
+"Synthetic data is not just about privacy - it's about democratising access to health data for research and innovation. Our goal is to make it possible for any researcher to work with realistic health data without compromising patient privacy." - Prof. van der Schaar
 
 ---
 *Last updated: July 2025*

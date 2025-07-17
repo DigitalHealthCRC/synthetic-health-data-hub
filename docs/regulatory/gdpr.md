@@ -3,7 +3,7 @@
 
 ## Overview
 
-The General Data Protection Regulation (GDPR) is the European Union's comprehensive data protection law. Understanding how GDPR applies to synthetic health data is crucial for organizations operating in or serving EU residents.
+The General Data Protection Regulation (GDPR) is the European Union's comprehensive data protection law. Understanding how GDPR applies to synthetic health data is crucial for organisations operating in or serving EU residents.
 
 ## Key GDPR Principles
 
@@ -65,7 +65,7 @@ Required when:
 3. **Noise Addition**: Statistical perturbation
 4. **K-Anonymity**: Minimum equivalence classes
 
-### Organizational Measures
+### organisational Measures
 1. **Access Controls**: Limit who can generate synthetic data
 2. **Audit Trails**: Log all synthesis activities
 3. **Training**: Ensure staff understand privacy

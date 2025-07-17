@@ -8,19 +8,19 @@
 
 ## Contributions to Synthetic Health Data
 
-Dr. El Emam is one of the world's leading experts on health data privacy and synthetic data generation. He has pioneered practical methods for generating synthetic health data that balance utility with strong privacy guarantees, and has been instrumental in bringing synthetic data solutions to production in healthcare organizations globally.
+Dr. El Emam is one of the world's leading experts on health data privacy and synthetic data generation. He has pioneered practical methods for generating synthetic health data that balance utility with strong privacy guarantees, and has been instrumental in bringing synthetic data solutions to production in healthcare organisations globally.
 
 ### Key Innovations
 - **Sequential synthesis methods** - Maintaining temporal relationships in synthetic data
 - **Privacy risk assessment frameworks** - Quantifying re-identification risk
-- **Utility-preserving synthesis** - Optimizing the privacy-utility trade-off
-- **Clinical data synthesis** - Specialized methods for different types of health data
+- **Utility-preserving synthesis** - Optimising the privacy-utility trade-off
+- **Clinical data synthesis** - Specialised methods for different types of health data
 
 ### Notable Publications
 1. **Practical Synthetic Data Generation: Balancing Privacy and the Broad Availability of Data** (2020) - O'Reilly Media - [Book](https://www.oreilly.com/library/view/practical-synthetic-data/9781492072737/)
 2. **Evaluating Identity Disclosure Risk in Fully Synthetic Health Data** (2022) - IEEE - [Paper](https://ieeexplore.ieee.org/document/9669023)
 3. **The Synthetic Data Paradigm for Using and Sharing Data** (2021) - Communications of the ACM
-4. **Anonymizing Health Data: Case Studies and Methods to Get You Started** (2013) - O'Reilly Media
+4. **Anonymising Health Data: Case Studies and Methods to Get You Started** (2013) - O'Reilly Media
 
 ### Tools & Software
 - **[Replica Synthesis](https://replica-analytics.com/)** - Founder/CEO - Commercial synthetic data platform
@@ -73,7 +73,7 @@ Founded in 2018, Replica Analytics provides:
 
 ## Collaboration Interests
 - Open to: Research partnerships, pilot projects, speaking engagements
-- Looking for: Healthcare organizations interested in synthetic data
+- Looking for: Healthcare organisations interested in synthetic data
 - Focus areas: Clinical trial data, rare disease data, longitudinal health records
 
 ## Philosophy on Synthetic Data
@@ -81,7 +81,7 @@ Founded in 2018, Replica Analytics provides:
 "Synthetic data represents a paradigm shift in how we think about data sharing and privacy. It's not just about protecting privacy - it's about enabling innovation and research that would otherwise be impossible due to data access barriers." - Dr. El Emam
 
 ## Impact Metrics
-- Synthetic data methods used by 100+ organizations
+- Synthetic data methods used by 100+ organisations
 - Millions of synthetic health records generated safely
 - Influenced privacy legislation in multiple countries
 - Trained 1000+ professionals in privacy engineering

@@ -8,7 +8,7 @@
 
 ## Contributions to Synthetic Health Data
 
-Craig Jordan brings a unique clinical perspective to synthetic data generation, bridging the gap between technical capabilities and healthcare needs. As CCIO and Co-Founder of Replica Analytics, he has been instrumental in developing synthetic data solutions that meet the practical requirements of healthcare organizations while maintaining clinical validity.
+Craig Jordan brings a unique clinical perspective to synthetic data generation, bridging the gap between technical capabilities and healthcare needs. As CCIO and Co-Founder of Replica Analytics, he has been instrumental in developing synthetic data solutions that meet the practical requirements of healthcare organisations while maintaining clinical validity.
 
 ### Key Contributions
 - **Clinical validation frameworks** - Ensuring synthetic data maintains medical plausibility
@@ -27,7 +27,7 @@ Craig Jordan brings a unique clinical perspective to synthetic data generation, 
 ### Healthcare Experience
 - **20+ years** in healthcare IT and clinical informatics
 - **Previous roles**: 
-  - Senior positions at major Canadian health organizations
+  - Senior positions at major Canadian health organisations
   - Clinical systems implementation lead
   - Privacy and security officer
   - Health data analytics director
@@ -42,7 +42,7 @@ Craig Jordan brings a unique clinical perspective to synthetic data generation, 
 ## Synthetic Data Implementation
 
 ### Real-World Deployments
-- Led implementations at 50+ healthcare organizations
+- Led implementations at 50+ healthcare organisations
 - Developed best practices for synthetic data in hospitals
 - Created training programs for healthcare professionals
 - Established validation protocols for clinical data
@@ -69,12 +69,12 @@ Craig Jordan brings a unique clinical perspective to synthetic data generation, 
 
 ### Key Messages
 - "Clinical validity is as important as statistical accuracy"
-- "Synthetic data democratizes healthcare innovation"
+- "Synthetic data democratises healthcare innovation"
 - "Privacy and utility are not mutually exclusive"
 - "Implementation success requires clinical buy-in"
 
 ### Published Insights
-- Implementation guides for healthcare organizations
+- Implementation guides for healthcare organisations
 - ROI analyses for synthetic data adoption
 - Governance frameworks for synthetic health data
 - Clinical validation methodologies
@@ -98,11 +98,11 @@ Craig Jordan brings a unique clinical perspective to synthetic data generation, 
 
 ## Healthcare Transformation
 
-"Synthetic data is transforming how healthcare organizations approach data sharing and innovation. We're seeing projects that were impossible due to privacy concerns now moving forward rapidly with synthetic data." - Craig Jordan
+"Synthetic data is transforming how healthcare organisations approach data sharing and innovation. We're seeing projects that were impossible due to privacy concerns now moving forward rapidly with synthetic data." - Craig Jordan
 
 ## Areas of Focus
 - **Clinical Trials**: Synthetic control arms and feasibility studies
-- **Hospital Operations**: Capacity planning and resource optimization
+- **Hospital Operations**: Capacity planning and resource optimisation
 - **Population Health**: Disease modeling and intervention planning
 - **Medical Education**: Realistic training data for clinicians
 

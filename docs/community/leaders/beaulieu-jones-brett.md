@@ -19,7 +19,7 @@ Dr. Beaulieu-Jones has been instrumental in developing and evaluating synthetic 
 ### Notable Publications
 1. **Privacy-Preserving Generative Deep Neural Networks Support Clinical Data Sharing** (2019) - Circulation: Cardiovascular Quality and Outcomes
 2. **Examining the Use of Real-World Evidence in FDA Regulatory Decision-Making** (2023) - Clinical Pharmacology & Therapeutics
-3. **Characterizing and Managing Missing Structured Data in Electronic Health Records** (2018) - JMIR Medical Informatics
+3. **Characterising and Managing Missing Structured Data in Electronic Health Records** (2018) - JMIR Medical Informatics
 4. **Semi-supervised Learning of the Electronic Health Record for Phenotype Stratification** (2016) - Journal of Biomedical Informatics
 
 ### Research Focus Areas

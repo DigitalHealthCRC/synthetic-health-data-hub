@@ -50,7 +50,7 @@ This is a MkDocs Material-based documentation site for synthetic health data res
 │   ├── regulatory/        # Compliance guides
 │   ├── community/         # Community resources
 │   └── resources/         # Guides and best practices
-├── overrides/             # Theme customizations
+├── overrides/             # Theme customisations
 │   └── assets/
 │       └── stylesheets/
 │           └── extra.css  # Custom CSS
@@ -80,7 +80,7 @@ The site has 9 main sections:
 8. Privacy & Security (nav_order: 8)
 9. Benchmarks (nav_order: 9)
 
-Each section has child pages organized in Jekyll collections.
+Each section has child pages organised in Jekyll collections.
 
 ## Deployment
 - Uses GitHub Actions workflow (`.github/workflows/mkdocs.yml`)

@@ -14,7 +14,7 @@
 | Data Type | Personal information (including health) |
 | Key Requirement | Consent for collection, use, and disclosure |
 | Anonymization | Supported as privacy-enhancing measure |
-| Accountability | Organizations remain responsible |
+| Accountability | organisations remain responsible |
 | Penalties | Up to $100,000 CAD per violation |
 
 ## Key Requirements
@@ -52,7 +52,7 @@
 
 PIPEDA's 10 Fair Information Principles apply:
 
-1. **Accountability** - Organization responsible for synthetic data
+1. **Accountability** - organisation responsible for synthetic data
 2. **Identifying Purposes** - Clear why generating synthetic data
 3. **Consent** - May need consent for synthesis
 4. **Limiting Collection** - Only data needed for synthesis

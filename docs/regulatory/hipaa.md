@@ -170,7 +170,7 @@ Consequence: Potential HIPAA violation, fines
 | Synthetic Data | Via de-identification | Anonymization | Reasonable purposes |
 | Enforcement | HHS OCR | Data Protection Authorities | Privacy Commissioner |
 
-## Action Items for Organizations
+## Action Items for organisations
 
 1. **Assessment**: Evaluate current data handling practices
 2. **Policy Development**: Create synthetic data governance policies

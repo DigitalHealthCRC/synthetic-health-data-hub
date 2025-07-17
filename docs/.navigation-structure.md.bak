@@ -30,7 +30,7 @@ This site uses hierarchical navigation with the following structure:
    - Leaders
      - Researchers
        - Cynthia Dwork
-   - Organizations
+   - organisations
 6. **Education** (nav_order: 6)
    - Courses
    - Events

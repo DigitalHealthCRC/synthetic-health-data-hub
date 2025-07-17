@@ -1,6 +1,6 @@
 # Community
 
-Connect with the global synthetic health data community of researchers, practitioners, and organizations.
+Connect with the global synthetic health data community of researchers, practitioners, and organisations.
 
 ## Overview
 
@@ -15,10 +15,10 @@ Profiles of key contributors:
 - Policy makers
 - Open source maintainers
 
-### [Organizations](organisations/index.md)
+### [Organisations](organisations/index.md)
 Key institutions and companies:
 - Research labs
-- Healthcare organizations
+- Healthcare organisations
 - Technology companies
 - Government agencies
 
@@ -43,7 +43,7 @@ Ways to get involved:
 - **Dr. Mihaela van der Schaar** - ML for healthcare
 - **Prof. Peter Kairouz** - Federated learning
 
-### Organizations Making Impact
+### Organisations Making Impact
 - **MIT CSAIL** - Privacy-preserving technologies
 - **NHS Digital** - National health data initiatives
 - **Google Health** - AI for healthcare
@@ -51,7 +51,7 @@ Ways to get involved:
 ## Featured Initiative
 
 ### [SynD: Synthetic Data Community of Practice](synd-community.md)
-An Australian initiative by Digital Health CRC bringing together researchers, practitioners, and organizations to advance synthetic health data. Join this growing community to collaborate, share knowledge, and drive innovation in privacy-preserving health data technologies.
+An Australian initiative by Digital Health CRC bringing together researchers, practitioners, and organisations to advance synthetic health data. Join this growing community to collaborate, share knowledge, and drive innovation in privacy-preserving health data technologies.
 
 ## Get Involved
 

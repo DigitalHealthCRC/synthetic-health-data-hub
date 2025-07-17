@@ -97,7 +97,7 @@
   margin: 1.5rem 0;
 }
 
-/* Admonition customization */
+/* Admonition customisation */
 .md-typeset .admonition.tip,
 .md-typeset details.tip {
   border-color: var(--md-accent-fg-color);

@@ -46,7 +46,7 @@ data, metadata = download_demo(
     dataset_name='fake_hotel_guests'
 )
 
-# Create synthesizer
+# Create synthesiser
 synthesizer = GaussianCopulaSynthesizer(metadata)
 
 # Fit the model

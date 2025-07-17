@@ -147,7 +147,7 @@ from sdv.metadata import SingleTableMetadata
 metadata = SingleTableMetadata()
 metadata.detect_from_dataframe(data)
 
-# Customize as needed
+# customise as needed
 metadata.update_column(
     column_name='diagnosis_code',
     sdtype='categorical'

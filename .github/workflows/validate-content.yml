@@ -122,8 +122,8 @@ jobs:
                 "differentially",
                 "tabular",
                 "multimodal",
-                "anonymization",
-                "pseudonymization",
+                "anonymisation",
+                "pseudonymisation",
                 "reidentification"
               ]
             }
