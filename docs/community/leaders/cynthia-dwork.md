@@ -4,7 +4,7 @@
 
 ## Pioneer of Differential Privacy
 
-![Cynthia Dwork](https://via.placeholder.com/200x200?text=Photo)
+![Cynthia Dwork](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Cynthia_Dwork_lectures_at_Harvard_Kennedy_School.jpg/1200px-Cynthia_Dwork_lectures_at_Harvard_Kennedy_School.jpg)
 
 **Position**: Gordon McKay Professor of Computer Science, Harvard University  
 **Affiliation**: Harvard John A. Paulson School of Engineering and Applied Sciences  
@@ -71,7 +71,7 @@ Professor Dwork continues to advance:
 ## Resources
 
 - [Harvard Faculty Page](https://www.seas.harvard.edu/person/cynthia-dwork)
-- [Google Scholar Profile](https://scholar.google.com/citations?user=XXXXXXX)
+- [Google Scholar Profile](https://scholar.google.com/scholar_lookup?title=Differential+privacy&author=Cynthia+Dwork&publication_year=2006&pages=1-12&doi=10.1007%2F11787006_1)
 - [Differential Privacy Book (Free)](https://www.cis.upenn.edu/~aaroth/Papers/privacybook.pdf)
 
 ## Notable Quotes

@@ -21,7 +21,6 @@ This repository has been migrated from Jekyll to MkDocs Material for better docu
    mkdocs serve
    ```
    
-   The site will be available at http://localhost:8000
 
 ### Building the Site
 

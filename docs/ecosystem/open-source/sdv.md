@@ -134,6 +134,6 @@ synthesizer.add_constraints([constraint])
 
 ## Resources
 
-- [Getting Started Guide](..//education/tutorials/sdv-basics/.md)
+- [The Synthetic Data Vault](https://sdv.dev/)
 - [Documentation](https://docs.sdv.dev/sdv)
-- [Example Notebooks & Demos](https://docs.sdv.dev/sdv/demos)
+- [Example Notebooks & Demos](https://docs.sdv.dev/sdv/tutorials)
