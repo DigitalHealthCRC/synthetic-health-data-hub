@@ -423,18 +423,21 @@ body {
   --md-default-bg-color: #000000;
   --md-sidebar-bg-color: #141400;
   --md-content-bg-color: #151800;
+  --md-default-fg-color: #ffffff;
+  --md-primary-fg-color: #d1d1d1;
+  --md-accent-fg-color: #ff00bf;
 }
 
 [data-md-color-scheme="slate"] .md-main {
   background-color: var(--md-default-bg-color);
 }
 
-[data-md-color-scheme="slate"] .md-sidebar {
+[data-md-color-scheme="slate"] .md-sidebar__scrollwrap  {
   background-color: var(--md-sidebar-bg-color);
 }
 
 [data-md-color-scheme="slate"] .md-content {
-  background-color: var(--md-default-bg-color);
+  background-color: var(--md-content-bg-color);
 }
 
 
