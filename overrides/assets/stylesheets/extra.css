@@ -421,8 +421,8 @@ body {
 /* Dark mode styles */
 [data-md-color-scheme="slate"] {
   --md-default-bg-color: #000000;
-  --md-sidebar-bg-color: #242424;
-  --md-content-bg-color: #252525;
+  --md-sidebar-bg-color: #020202;
+  --md-content-bg-color: #040404;
   --md-default-fg-color: #ffffff;
   --md-primary-fg-color: #d1d1d1;
   --md-accent-fg-color: #ff00bf;
@@ -440,14 +440,64 @@ body {
   background-color: var(--md-content-bg-color);
 }
 
-/* Ensure sidebar title area matches sidebar background in slate mode */
+/* Ensure sidebar areas match sidebar background in slate mode */
 [data-md-color-scheme="slate"] .md-nav__title {
-  background-color: var(--md-sidebar-bg-color);
+  background-color: var(--md-sidebar-bg-color) !important;
+}
+
+[data-md-color-scheme="slate"] .md-sidebar__scrollwrap {
+  background-color: var(--md-sidebar-bg-color) !important;
+}
+
+[data-md-color-scheme="slate"] .md-sidebar {
+  background-color: var(--md-sidebar-bg-color) !important;
+}
+
+[data-md-color-scheme="slate"] .md-sidebar--primary .md-sidebar__scrollwrap {
+  background-color: var(--md-sidebar-bg-color) !important;
+}
+
+[data-md-color-scheme="slate"] .md-sidebar--secondary .md-sidebar__scrollwrap {
+  background-color: var(--md-sidebar-bg-color) !important;
+}
+
+/* Also ensure the top area of sidebars matches */
+[data-md-color-scheme="slate"] .md-sidebar__inner {
+  background-color: var(--md-sidebar-bg-color) !important;
+}
+
+/* Make all headers and titles white in slate mode */
+[data-md-color-scheme="slate"] .md-typeset h1,
+[data-md-color-scheme="slate"] .md-typeset h2,
+[data-md-color-scheme="slate"] .md-typeset h3,
+[data-md-color-scheme="slate"] .md-typeset h4,
+[data-md-color-scheme="slate"] .md-typeset h5,
+[data-md-color-scheme="slate"] .md-typeset h6 {
+  color: #ffffff !important;
+}
+
+/* Hero section text white in slate mode */
+[data-md-color-scheme="slate"] .hero-section,
+[data-md-color-scheme="slate"] .hero-section h2,
+[data-md-color-scheme="slate"] .hero-section p {
+  color: #ffffff !important;
+}
+
+/* Card headers white in slate mode */
+[data-md-color-scheme="slate"] .card h3,
+[data-md-color-scheme="slate"] .regulation-card h3 {
+  color: #ffffff !important;
+}
+
+/* Navigation titles white in slate mode */
+[data-md-color-scheme="slate"] .md-nav__title,
+[data-md-color-scheme="slate"] .md-nav__link {
+  color: #ffffff !important;
 }
 
 /* Add a bright separator line before H2 headings in slate mode */
 [data-md-color-scheme="slate"] .md-typeset h2 {
-  border-top: 1px solid rgba(255, 255, 255, 0.7);
+  border-top: 1px solid rgba(255, 255, 255, 0.999);
 }
 
 

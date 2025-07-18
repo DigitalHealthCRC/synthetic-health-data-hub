@@ -1,5 +1,3 @@
-
-
 <div class="hero-section" markdown="1">
 
 # Synthetic Health Data Hub
@@ -84,7 +82,7 @@ This hub is a community effort. We welcome contributions of all kinds:
 
 See our [Contributing Guide](resources/CONTRIBUTING.md) to get started.
 
----
+
 
 <div class="footer-links" markdown="1">
 
