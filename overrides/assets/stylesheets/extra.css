@@ -420,20 +420,23 @@ body {
 
 /* Dark mode styles */
 [data-md-color-scheme="slate"] {
-  /* Pure black background */
   --md-default-bg-color: #000000;
-  
-  /* Dark gray for sidebars - between black and main content */
-  --md-sidebar-bg-color: #1a1a1a;
+  --md-sidebar-bg-color: #141400;
+  --md-content-bg-color: #151800;
+}
+
+[data-md-color-scheme="slate"] .md-main {
+  background-color: var(--md-default-bg-color);
 }
 
 [data-md-color-scheme="slate"] .md-sidebar {
   background-color: var(--md-sidebar-bg-color);
 }
 
-[data-md-color-scheme="slate"] .md-sidebar--secondary {
-  background-color: var(--md-sidebar-bg-color);
+[data-md-color-scheme="slate"] .md-content {
+  background-color: var(--md-default-bg-color);
 }
+
 
 /* Print styles */
 @media print {
