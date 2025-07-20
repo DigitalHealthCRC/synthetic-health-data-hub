@@ -1,6 +1,6 @@
 <div class="hero-section" markdown="1">
 
-# Synthetic Health Data Hub
+# Synthetic Health Data Hub (SynDHub)
 
 ## Your comprehensive guide to synthetic health data generation
 
