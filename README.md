@@ -6,7 +6,7 @@ The definitive resource hub for tabular synthetic health data, covering algorith
 
 ## 🌐 Visit the Site
 
-[https://DigitalHealthCRCLimited.github.io/synthetic-health-data-hub/](https://DigitalHealthCRC.github.io/synthetic-health-data-hub/)
+[https://DigitalHealthCRC.github.io/synthetic-health-data-hub/](https://DigitalHealthCRC.github.io/synthetic-health-data-hub/)
 
 ## 📚 Repository Structure
 
@@ -37,7 +37,7 @@ The definitive resource hub for tabular synthetic health data, covering algorith
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/DigitalHealthCRCLimited/synthetic-health-data-hub.git
+   git clone https://github.com/DigitalHealthCRC/synthetic-health-data-hub.git
    cd synthetic-health-data-hub
    ```
 
