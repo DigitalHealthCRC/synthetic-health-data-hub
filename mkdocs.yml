@@ -1,8 +1,8 @@
 site_name: Synthetic Health Data Hub
 site_description: The definitive resource hub for tabular synthetic health data, covering algorithms, tools, regulations, and community resources.
-site_url: https://digitalhealthcrclimited.github.io/synthetic-health-data-hub/
-repo_url: https://github.com/DigitalHealthCRCLimited/synthetic-health-data-hub
-repo_name: DigitalHealthCRCLimited/synthetic-health-data-hub
+site_url: https://digitalhealthCRC.github.io/synthetic-health-data-hub/
+repo_url: https://github.com/DigitalHealthCRC/synthetic-health-data-hub
+repo_name: DigitalHealthCRC/synthetic-health-data-hub
 edit_uri: edit/main/docs/
 
 
@@ -157,7 +157,7 @@ nav:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/DigitalHealthCRCLimited
+      link: https://github.com/DigitalHealthCRC
     - icon: fontawesome/solid/globe
       link: https://digitalhealthcrc.com
   copyright: Copyright &copy; 2024 Digital Health CRC. Synthetic Health Data Hub is a project of the <a href='https://digitalhealthcrc.com'>Digital Health Cooperative Research Centre</a>.
