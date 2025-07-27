@@ -6,7 +6,7 @@ The definitive resource hub for tabular synthetic health data, covering algorith
 
 ## 🌐 Visit the Site
 
-[https://DigitalHealthCRCLimited.github.io/synthetic-health-data-hub/](https://DigitalHealthCRCLimited.github.io/synthetic-health-data-hub/)
+[https://DigitalHealthCRCLimited.github.io/synthetic-health-data-hub/](https://DigitalHealthCRC.github.io/synthetic-health-data-hub/)
 
 ## 📚 Repository Structure
 
